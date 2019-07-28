@@ -28,7 +28,8 @@ h2, h3{
 }
 
 .navbar{
-  background-color: #f1ebe3;
+  /* background-color: #f1ebe3; */
+  background-color: transparent;
   padding: 1% 0;
   font-size: 1.2em;
 
