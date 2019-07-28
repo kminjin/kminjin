@@ -1,0 +1,208 @@
+html,body{
+  height:100%;
+  width:100%;
+  background-color: #f1ebe3;
+  font-family: 'Josefin Sans', sans-serif
+
+}
+
+h2, h3{
+  font-family: "Raleway", sans-serif;
+}
+
+/* h3 span{
+  background-color: rgba(255,255,255, 0.3);
+} */
+
+.floatingNav {
+  /* width: calc(100vh - 100px); */
+  border-radius: 2px;
+  box-shadow: 0px 1px 10px #999;
+
+}
+#shadownav{
+    font-family: "Raleway", sans-serif;
+    /* font-family: "Inherit", sans-serif; */
+
+
+}
+
+.navbar{
+  background-color: #f1ebe3;
+  padding: 1% 0;
+  font-size: 1.2em;
+
+}
+
+.navbar-brand {
+  min-height: 35px;
+  font-size: 1.2em;
+  color:black;
+  padding: 0 15px 5px;
+}
+
+.navbar-absolute .navbar-nav li a {
+  color: black;
+
+}
+
+
+.navbar-absolute .navbar-nav li a:hover, .navbar-absolute .navbar-nav li a:active {
+  color: #FFF;
+}
+
+
+#home{
+  background: url(../images/landingpage.png) no-repeat center center fixed;
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+  background-color: #f1ebe3;
+
+}
+
+
+.landing-text{
+  display:table-cell;
+  text-align: center;
+  vertical-align: bottom;
+
+}
+
+.landing-text h1{
+  font-size:500%;
+  font-weight: 700;
+}
+
+.arrowsize{
+  font-size:30px;
+}
+
+.padding{
+  padding:10px 0;
+
+}
+
+.padding img{
+  width:100%;
+}
+
+
+#fixed{
+  background:url(../images/background.jpg) no-repeat center center fixed;
+  display:table;
+  height: 60%;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+}
+
+footer{
+  width:100%;
+  background-color: #f1ebe3;
+  padding: 5% 5% 10% 5%;
+  /* color: #FFF; */
+
+}
+
+
+.fab {
+  padding:15px;
+  font-size:25px;
+  color:black;
+}
+
+.fab:hover{
+  color: #D5d5d5;
+  text-decoration: none;
+}
+
+.icon{
+  max-width: 200px;
+}
+
+
+
+@media(max-width:768px){
+  .landing-text h1{
+    font-size: 300%;
+  }
+  .fab{
+    font-size:20px;
+    padding:10px;
+  }
+  .icon{
+    padding-top:5%;
+    max-width:100px;
+  }
+}
+
+/*--- iOS Landing Page Fix
+section {
+ 	position: relative;
+ 	width: 100%;
+ 	height: 100%;
+ 	display: table;
+}
+.home-wrap {
+ 	clip: rect(0, auto, auto, 0);
+ 	position: absolute;
+ 	top: 0;
+ 	left: 0;
+ 	width: 100%;
+ 	height: 100%;
+}
+#home {
+	background-image: url('img/mountains.jpeg');
+ 	position: fixed;
+ 	display: table;
+ 	top: 0;
+ 	left: 0;
+ 	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center center;
+	-webkit-transform: translateZ(0);
+          transform: translateZ(0);
+	will-change: transform;
+	z-index: -1;
+}
+.landing-text {
+	z-index: 100;
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+--*/
+
+/*--- iOS Fixed Image Fix
+figure {
+	position: relative;
+	width: 100%;
+	height: 60%;
+}
+.fixed-wrap {
+	clip: rect(0, auto, auto, 0);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+#fixed {
+	background-image: url('img/background.jpg');
+	position: fixed;
+	display: block;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center center;
+	-webkit-transform: translateZ(0);
+          transform: translateZ(0);
+	will-change: transform;
+}
+--*/
