@@ -10,9 +10,10 @@ h2, h3{
   font-family: "Raleway", sans-serif;
 }
 
-/* h3 span{
-  background-color: rgba(255,255,255, 0.3);
-} */
+h3 span{
+  background-color:#f1ebe3;
+  padding: 10px;
+}
 
 .floatingNav {
   /* width: calc(100vh - 100px); */
@@ -28,11 +29,23 @@ h2, h3{
 }
 
 .navbar{
-  /* background-color: #f1ebe3; */
-  background-color: transparent;
+  background-color: #f1ebe3;
+  /* background-color: transparent; */
   padding: 1% 0;
   font-size: 1.2em;
 
+}
+
+hr {
+/* width: 50%; */
+/* height: 20px; */
+/* background-color: black; */
+margin-right: auto;
+margin-left: auto;
+margin-top: 5px;
+margin-bottom: 6px;
+border-width: 2px;
+border-color: black;
 }
 
 .navbar-brand {
@@ -61,8 +74,8 @@ h2, h3{
   width: 100%;
   background-size: cover;
   background-color: #f1ebe3;
-
 }
+
 
 
 .landing-text{
