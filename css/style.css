@@ -76,8 +76,17 @@ border-color: black;
   background-color: #f1ebe3;
 }
 
-#cnbc{
+#padding{
   background: url(../images/padding.png) no-repeat center center fixed;
+  display: table;
+  height: 10%;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+}
+
+#cnbc{
+  background: url(../images/cnbc.png) no-repeat center center fixed;
   display: table;
   height: 10%;
   position: relative;
