@@ -10,9 +10,19 @@ h2, h3{
   font-family: "Raleway", sans-serif;
 }
 
+h4{
+  font-family: "Raleway", sans-serif;
+}
+
 h3 span{
   background-color:#f1ebe3;
   padding: 10px;
+}
+
+mark{
+  background:#fec41a;
+  color:black;
+
 }
 
 .floatingNav {
