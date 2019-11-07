@@ -1,3 +1,17 @@
+.logo {
+  font-size:50px;
+  border-radius:50%;
+  -webkit-border-radius:50%;
+  -moz-border-radius:50%;
+  -o-border-radius:50%;
+  transition: all 800ms ease-in-out;
+}
+.logo:hover {
+  -ms-transform: rotate(360deg); /* IE 9 */
+  -webkit-transform: rotate(360deg); /* Chrome, Safari, Opera */
+  transform: rotate(360deg);
+}
+
 /* Content */
 .content {
   padding: 20px;
