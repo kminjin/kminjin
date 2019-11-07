@@ -2,6 +2,15 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-144593656-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-144593656-1');
+	</script>
+
 	<!-- SITE TITLE -->
 	<title>Michelle K, UX Designer</title>
 
@@ -19,41 +28,31 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 </head>
+
+
+
 <body data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
 
-<script>
-  $(function() {
-      $('a[href*=#]:not([href=#])').click(function() {
-          if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-              var target = $(this.hash);
-              target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-              if (target.length) {
-                  $('html,body').animate({
-                      scrollTop: target.offset().top
-                  }, 1000);
-                  return false;
-              }
-          }
-      });
-  });
-</script>
+
 <!-- navigation section -->
 <section class="navbar navbar-fixed-top custom-navbar" role="navigation">
 	<div class="container">
 		<div class="navbar-header">
-			<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+
+			<button class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
 				<span class="icon icon-bar"></span>
 				<span class="icon icon-bar"></span>
 				<span class="icon icon-bar"></span>
 			</button>
-			<a href="index.html" class="navbar-brand"><class="bold">M</a>
+
+			<a href="index.html" class="navbar-brand logo"><class="bold">M</a>
 		</div>
-		<div class="collapse navbar-collapse">
+		<div class="collapse navbar-collapse" id="myNavbar">
 			<ul class="nav navbar-nav navbar-right">
-				<li><a href="#work" class="smoothScroll">WORK</a></li>
-				<li><a href="#about" class="smoothScroll">ABOUT</a></li>
-				<li><a href="#resume" class="smoothScroll">RESUME</a></li>
-				<!-- <li><a target="_blank" href="https://kminjin.github.io/documents/michellekim.pdf" class="smoothScroll">RESUME</a></li> -->
+				<li><a href="#work">WORK</a></li>
+				<li><a href="#about">ABOUT</a></li>
+				<!-- <li><a href="#resume" class="smoothScroll">RESUME</a></li> -->
+				<li><a target="_blank" href="https://kminjin.github.io/documents/michellekim.pdf" class="smoothScroll">RESUME</a></li>
 
 			</ul>
 		</div>
@@ -129,7 +128,7 @@
 												</div>
                				 </div>
 
-               				 <div class="content iso-box research col-lg-6 col-md-6 col-sm-12 col-xs-6">
+               				 <div class="content iso-box research col-lg-6 col-md-6 col-sm-6 col-xs-6">
                				 	<a href="michiganmed.html" data-lightbox-gallery="portfolio-gallery"><img src="images/michiagnmed2.png" alt="michiganmed"></a>
 												<div class="team-des">
 
@@ -150,8 +149,8 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 col-sm-12">
-		 <h1 class="selected-work-text">PASSIONATE ABOUT DESIGN & ITS ETHICS </h1>
-		 <p>My greatest strength as a designer is that I genuinely care about the people I serve and users are my highest priority. My design philosophy will always be to strive for accessibility and usefulness. Good UX is good business.
+		 <h1 class="selected-work-text">PASSIONATE ABOUT DESIGN ETHICS </h1>
+		 <p>My greatest strength as a designer is that I genuinely care about the people I serve and users are my highest priority. When designing, I strive for accessibility and usefulness. Good UX is good business.
 </p>
 <ul class="social-icon">
 	<li><a target="_blank" href="https://www.linkedin.com/in/mkimdesign/" class="fa fa-linkedin wow bounceIn" data-wow-delay="0.9s"></a></li>
