@@ -158,7 +158,7 @@ p {
 
 /* home section */
 #home {
-    /* background: url('../images/melandingpage.png') no-repeat; */
+    background: url('../images/landingpage.png') no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center;
