@@ -1,3 +1,49 @@
+#first, #second, #third, #forth, #fifth, #sixth, #first:hover, #second:hover, #third:hover, #fourth:hover, #fifth:hover, #sixth:hover, #seventh:hover{
+	transition: all 0.1s;
+	-webkit-transition: all 0.1s;
+	-o-transition: all 0.1s;
+	-moz-transition: all 0.1s;
+}
+
+#first:hover {
+	background: #EDB059;
+}
+#first:hover #second:hover, #third:hover,#fourth:hover, #fifth:hover, #sixth:hover, #seventh:hover h2 {
+	color: rgba(0, 0, 0);
+  	color: #fff;
+}
+#first:hover, #second:hover, #third:hover,#fourth:hover, #fifth:hover, #sixth:hover,#seventh:hover h4 {
+	color: #fff;
+}
+#first:hover h2::after {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+#second:hover {
+	background: #289E57;
+}
+
+#third:hover {
+	background: #FEC41A;
+}
+
+
+#fourth:hover {
+	background: #E24747;
+}
+
+#fifth:hover {
+	background: #4EBFD8;
+}
+
+#sixth:hover {
+	background: #D094C0;
+}
+
+#seventh:hover {
+	background: #EF8E9B;
+}
+
 .logo {
   font-size:50px;
   border-radius:50%;
@@ -285,7 +331,7 @@ p {
     transition: all 0.4s ease-in-out;
 }
 #work img:hover {
-    opacity: 0.6;
+    /* opacity: 0.6; */
 }
 /* FILTER CSS */
 .filter-wrapper {
