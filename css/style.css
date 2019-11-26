@@ -1,5 +1,6 @@
 
 
+
 /* horizontal scrolling */
 
 :root {
@@ -216,10 +217,21 @@ h1,h2,h3,h4 {
     padding-bottom: 60px;
     /*    color: white;*/
 }
+.headingtitle {
+    font-size: 30px;
+    padding-bottom: 20px;
+    /*    color: white;*/
+}
+
+.normal {
+  font-weight: normal;
+}
+
+
 .subheading {
-    font-size: 14px;
+    font-size: 17px;
     font-weight: bold;
-    padding-bottom: 60px;
+    padding-bottom: 2px;
 }
 .bold {
     font-weight: bold;
@@ -233,7 +245,7 @@ p {
 #about,
 #team, #contact {
     padding-top: 100px;
-    padding-bottom:80px;
+    /* padding-bottom:80px; */
 }
 
 #about .fa {

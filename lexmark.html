@@ -18,54 +18,74 @@
 	<link rel="stylesheet" href="css/nivo_themes/default/default.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+<link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
 </head>
 <body data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
 
 	<!-- navigation section -->
-<section class="navbar navbar-fixed-top custom-navbar" role="navigation">
+<section id="navbar" class="navbar navbar-fixed-top custom-navbar" role="navigation">
 	<div class="container">
 		<div class="navbar-header">
-
 			<button class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
 				<span class="icon icon-bar"></span>
 				<span class="icon icon-bar"></span>
 				<span class="icon icon-bar"></span>
 			</button>
-
 			<a href="index.html" class="navbar-brand logo"><class="bold">M</a>
 		</div>
 		<div class="collapse navbar-collapse" id="myNavbar">
 			<ul class="nav navbar-nav navbar-right">
 				<li><a href="index.html#work" >WORK</a></li>
 				<li><a href="index.html#about">ABOUT</a></li>
-				<!-- <li><a href="#resume" class="smoothScroll">RESUME</a></li> -->
 				<li><a target="_blank" href="https://kminjin.github.io/documents/michellekim.pdf" class="smoothScroll">RESUME</a></li>
-
 			</ul>
 		</div>
 	</div>
 </section>
 
 
-
-<!-- home section -->
-	<section id="lexmark">
-		<div class="container">
-			<div class="row">
-			</div>
-		</div>
-	</section>
-
 <!-- about section -->
 	<section id="about">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 col-sm-12 text-center">
-					<h1 class="heading bold">Helping ServiceNow Service Now</h1>
-					<h2 class="subheading">UX Design Internship at Lexmark in Lexington KY, May - Aug 2019</h2>
+					<h1 class="headingtitle bold">Helping ServiceNow Service Now</h1>
+					<h5 class="normal" style="font-family: 'Quicksand', sans-serif;">UX Design - Web Platform</h5>
 				</div>
-				<p> As an intern, I redesigned ServiceNow, an internal service tool for Lexmark employees to submit request forms for any items or services they need. I supported design decisions with user research and increased the goal success rate for the platform by 36%.</p>
-				<br>
+			</div>
+		</div>
+	</section>
+
+	<!-- home section -->
+		<section id="lexmark">
+			<div class="container">
+				<div class="row">
+				</div>
+			</div>
+		</section>
+
+	<section id="about">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+						<h4 class="subheading">Role</h4>
+						<p>UX Design Intern at Lexmark<br>
+						May - Aug 2019<br>
+					</p>
+					</div>
+
+				<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+						<h4 class="subheading">Tools & Skills</h4>
+						<h5 style="font-family: 'Quicksand', sans-serif;">Design</h5>
+						<p>Adobe XD, Axure, Lo-fi & High-fi Prototyping, Documentation</p>
+						<h5 style="font-family: 'Quicksand', sans-serif;">Research</h5>
+						<p>Interviews, Card Sorts, Usability Tests</p><br><br>
+					</div>
+			</div>
+			<div class= "row">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<h4 class="subheading">Project Context</h4>
+					<p> As an intern, I independently led a user-centered design project to redesign ServiceNow, an internal service tool for Lexmark employees to submit requests for any items or services they need. I supported design decisions with user research and increased the goal success rate among the 10 most common tasks on the platform by 36%.</p>
 				<br>
 				<br>
 				<br>
@@ -76,7 +96,6 @@
 				<br>
 				<br>
 				<br>
-			</div>
 			<div class="row">
 				<div class="col">
 					<h3>My work was important because...</h3>
@@ -461,6 +480,19 @@
 <script src="js/nivo-lightbox.min.js"></script>
 <script src="js/wow.min.js"></script>
 <script src="js/custom.js"></script>
+
+<script>
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-70px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+</script>
 
 </body>
 </html>
