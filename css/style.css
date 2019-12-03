@@ -116,7 +116,7 @@ div {
 
 
 
-#first, #second, #third, #forth, #fifth, #sixth, #first:hover, #second:hover, #third:hover, #fourth:hover, #fifth:hover, #sixth:hover, #seventh:hover, #eighth:hover{
+#first, #second, #third, #forth, #fifth, #sixth, #first:hover, #second:hover, #third:hover, #fourth:hover, #fifth:hover, #sixth:hover, #seventh:hover, #eighth:hover, #ninth:hover{
 	transition: all 0.1s;
 	-webkit-transition: all 0.1s;
 	-o-transition: all 0.1s;
@@ -126,11 +126,14 @@ div {
 #first:hover {
 	background: #EDB059;
 }
-#first:hover #second:hover, #third:hover,#fourth:hover, #fifth:hover, #sixth:hover, #seventh:hover, #eighth:hover h2 {
+#ninth:hover{
+  background:#E2B0B7;
+}
+#first:hover #second:hover, #third:hover,#fourth:hover, #fifth:hover, #sixth:hover, #seventh:hover, #eighth:hover, #ninth:hover h2 {
 	color: rgba(0, 0, 0);
   	color: #fff;
 }
-#first:hover, #second:hover, #third:hover,#fourth:hover, #fifth:hover, #sixth:hover,#seventh:hover, #eighth:hover h4 {
+#first:hover, #second:hover, #third:hover,#fourth:hover, #fifth:hover, #sixth:hover,#seventh:hover, #eighth:hover,#ninth:hover h4 {
 	color: #fff;
 }
 #first:hover h2::after {
@@ -731,7 +734,23 @@ text-align: center;
   height: 100vh;
   text-align: center;
 }
-
+#pawls {
+background: url('../images/pawlspage.png') no-repeat;
+-webkit-background-size: cover;
+background-size: cover;
+background-position: center;
+background-color: #fff;
+display: -webkit-box;
+display: -webkit-flex;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-align: center;
+-webkit-align-items: center;
+-ms-flex-align: center;
+align-items: center;
+height: 100vh;
+text-align: center;
+  }
       #cnbc {
       background: url('../images/cnbclanding.png') no-repeat;
       -webkit-background-size: cover;
