@@ -1,3 +1,50 @@
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+background: none;
+  cursor: pointer; /* Add a mouse pointer on hover */
+
+}
+
+
+  /* background-color: #555; /* Add a dark-grey background on hover */
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+#myBtn:hover {
+  color: 	#A0A0A0;
+  /* text-shadow:0px 0px 30px #d3d3d3; */
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+/*Arrow*/
+/* i {
+  border: solid #289E57;
+  border-width: 0 4px 4px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+} */
+/*--------
+
+
+
 /* lexmark */
 #lexmark1, #lexmark2, #lexmark3, #lexmark4, #lexmark5, #lexmark6{
   background: #f9f9f9;
@@ -363,14 +410,13 @@ p {
 }
 
 
-.selected-work {
+.amiko {
   text-align: center;
   font-family: 'Amiko', sans-serif;
   font-size: 15px;
 }
 
 .selected-work-text {
-  font-family: 'Amiko', sans-serif;
   font-size: 30px;
   color: #cecece;
   letter-spacing: 0.2em;
@@ -379,19 +425,7 @@ p {
 
 
 
-/*Arrow*/
-/* i {
-  border: solid #cecece;
-  border-width: 0 1.25px 1.25px 0;
-  display: inline-block;
-  padding: 3px;
-}
 
-.down {
-  transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
-} */
-/*--------*/
 
 #home hr {
     border: 2px solid #404040;
@@ -511,7 +545,7 @@ p {
 
 .iso-box-wrapper {
     width: 100%;
-    padding: 0;
+    padding-bottom: 0;
     clear: both;
     position: relative;
 }
@@ -576,16 +610,10 @@ p {
 
 /*selectedprojects*/
 
-#selectedprojects {
-    text-align: center;
-}
-#selectedprojects h3 {
-    color: #202020;
-    line-height: 4px;
-}
-#selectedprojects .selectedprojects-des {
-    padding-top: 20px;
+.selectedprojects-des {
     padding-bottom: 40px;
+    font-family: 'Muli', sans-serif;
+
 }
 
 
