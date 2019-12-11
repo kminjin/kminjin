@@ -1,4 +1,4 @@
-/* Please ❤ this if you like it! */
+/* Variables for color */
 :root {
 	font-size: 20px;
 	--red: #da2c4d;
@@ -15,11 +15,8 @@
 	--black-light: #424455;
 }
 
-
-
 /* #Progress
 ================================================== */
-
 .progress-wrap {
 	position: fixed;
 	right: 50px;
@@ -100,7 +97,7 @@
 }
 
 
-
+/* Potential Resume button */
 #myBtn {
   display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
@@ -109,18 +106,9 @@
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
-background: none;
+	background: none;
   cursor: pointer; /* Add a mouse pointer on hover */
-
 }
-
-
-  /* background-color: #555; /* Add a dark-grey background on hover */
-
-html {
-  scroll-behavior: smooth;
-}
-
 
 #myBtn:hover {
   color: 	#A0A0A0;
@@ -131,192 +119,68 @@ html {
   transition: all 0.2s ease-in;
 }
 
-/*Arrow*/
-/* i {
-  border: solid #289E57;
-  border-width: 0 4px 4px 0;
-  display: inline-block;
-  padding: 3px;
+/* gray background for content */
+
+.graybg{
+	background: #f9f9f9;
 }
 
-.up {
-  transform: rotate(-135deg);
-  -webkit-transform: rotate(-135deg);
-} */
-/*--------
-
-
-
-/* lexmark */
-#lexmark1, #lexmark2, #lexmark3, #lexmark4, #lexmark5, #lexmark6{
-  background: #f9f9f9;
-}
-
+/* highlighting text */
 mark {
   background-color: #ff0;
   color: black;
 }
 
-/* horizontal scrolling */
+/* index background color for each project */
 
-:root {
-  --gutter: 20px;
-}
-
-.app {
-  padding: var(--gutter) 0;
-  display: grid;
-  grid-gap: var(--gutter) 0;
-  grid-template-columns: var(--gutter) 1fr var(--gutter);
-  align-content: start;
-}
-
-.app > * {
-  grid-column: 2 / -2;
-}
-
-.app > .full {
-  grid-column: 1 / -1;
-}
-
-.hs {
-  display: grid;
-  grid-gap: calc(var(--gutter) / 2);
-  grid-template-columns: 10px;
-  grid-template-rows: minmax(150px, 1fr);
-  grid-auto-flow: column;
-  grid-auto-columns: calc(50% - var(--gutter) * 2);
-  overflow-x: scroll;
-  scroll-snap-type: x proximity;
-  padding-bottom: calc(.75 * var(--gutter));
-  margin-bottom: calc(-.25 * var(--gutter));
-}
-
-.hs:before,
-.hs:after {
-  content: '';
-  width: 10px;
-}
-
-
-/* Demo styles */
-
-/* body {
-  display: grid;
-  place-items: center;
-  background: #456173;
-} */
-
-div {
-  /* list-style: none; */
-  padding: 0;
-}
-
-
-.app {
-  /* width: 375px;
-  height: 667px; */
-  /* background: #DBD0BC; */
-  overflow-y: scroll;
-}
-
-.hs > div,
-.item {
-  scroll-snap-align: center;
-  padding: calc(var(--gutter) / 2 * 1.5);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background: #fff;
-  border-radius: 8px;
-}
-
-
-
-.no-scrollbar {
-  scrollbar-width: none;
-  margin-bottom: 0;
-  padding-bottom: 0;
-}
-.no-scrollbar::-webkit-scrollbar {
-  display: none;
-}
-
-
-
-
-/* .hs > li,
-.item {
-  scroll-snap-align: center;
-  padding: calc(var(--gutter) / 2 * 1.5);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background: #fff;
-  border-radius: 8px;
-} */
-
-
-
-
-
-
-
-
-#first, #second, #third, #forth, #fifth, #sixth, #first:hover, #second:hover, #third:hover, #fourth:hover, #fifth:hover, #sixth:hover, #seventh:hover, #eighth:hover, #ninth:hover{
+#pvegout, #plexmark, #pcnbc, #pgarden, #ppawls, #pcomerica, #pgdesignchallenge, #pbrewery, #ppawls:hover, #plexmark:hover, #pbrewery:hover, #pgarden:hover, #pgdesignchallenge:hover, #ppawls:hover{
 	transition: all 0.1s;
 	-webkit-transition: all 0.1s;
 	-o-transition: all 0.1s;
 	-moz-transition: all 0.1s;
 }
 
-#first:hover {
-	background: #EDB059;
-}
-#ninth:hover{
-  background:#E2B0B7;
-}
-#first:hover #second:hover, #third:hover,#fourth:hover, #fifth:hover, #sixth:hover, #seventh:hover, #eighth:hover, #ninth:hover h2 {
-	color: rgba(0, 0, 0);
-  	color: #fff;
-}
-#first:hover, #second:hover, #third:hover,#fourth:hover, #fifth:hover, #sixth:hover,#seventh:hover, #eighth:hover,#ninth:hover h4 {
-	color: #fff;
-}
-#first:hover h2::after {
-	background-color: rgba(0, 0, 0, 0.5);
+#pvegout:hover h2, #plexmark:hover h2, #pcnbc:hover h2,#pgarden:hover h2, #pgdesignchallenge:hover h2, #pcomerica:hover h2, #pbrewery:hover h2, #ppawls:hover h2 {
+  color: #fff;
 }
 
-#second:hover {
+
+#pvegout:hover h4, #plexmark:hover h4, #pcnbc:hover h4, #pgarden:hover h4, #pgdesignchallenge:hover h4, #pcomerica:hover h4, #pbrewery:hover h4, #ppawls:hover h4 {
+	color: #fff;
+}
+
+#pvegout:hover {
+	background: #EDB059;
+}
+
+#plexmark:hover {
 	background: #289E57;
 }
 
-#third:hover {
+#pcnbc:hover {
 	background: #FEC41A;
 }
+#ppawls:hover{
+  background:#E2B0B7;
+}
 
-
-#fourth:hover {
+#pgarden:hover {
 	background: #E24747;
 }
 
-#fifth:hover {
+#pgdesignchallenge:hover {
 	background: #4EBFD8;
 }
 
-#sixth:hover {
+#pcomerica:hover {
 	background: #D094C0;
 }
 
-#seventh:hover {
-	background: #EF8E9B;
-}
-
-#eighth:hover{
+#pbrewery:hover{
   background: #1F77A3;
 }
+
+/* Fun twirling logo */
 .logo {
   font-size:50px;
   border-radius:50%;
@@ -422,58 +286,61 @@ p {
 
 /* start navigation */
 .custom-navbar {
-    background: #fff;
+    background-color: #fff;
     margin-bottom: 0;
 
 }
-.custom-navbar .navbar-brand  {
+.navbar-brand, .navbar-brand:hover  {
     color: #303030;
-    font-size: 30px;
-
-
+		font-family: "Helvetica Neue",Arial,sans-serif;
+		font-weight: 500;
+		font-style: normal;
+		font-size: 18px;
+		letter-spacing: .09em;
+		text-rendering: optimizeLegibility;
+		transition: all 0.3s ease-in-out;
 }
+
 .custom-navbar .navbar-brand .navbar-toggle {
     background: #55acee;
-    padding: 4px 6px;
     font-size: 16px;
-    color: #fff;
+
 }
 .custom-navbar .nav li a {
-    color: #505050;
-    font-size: 13px;
-    font-weight: bold;
-    letter-spacing: 4px;
-    padding-right: 20px;
-    padding-left: 20px;
-    transition: all 0.3s ease-in-out;
+		color: 	#C0C0C0;
+		font-family: "Helvetica Neue",Arial,sans-serif;
+		/* font-weight: 500; */
+		font-style: normal;
+		font-size: 14px;
+		letter-spacing: .01em;
+		text-rendering: optimizeLegibility;
 }
 .custom-navbar .nav li a:hover {
     /* background: #FF8C5F; */
-    color: #E87F56;
+    color: #303030;
     transition: all 0.3s ease-in-out;
-
 }
+
 .custom-navbar .nav > li > a:focus {
     background-color: transparent;
     outline: none;
 }
-.custom-navbar .nav li.active > a {
-    color: #E87F56;
-    font-weight: bold;
 
+.custom-navbar .nav li.active > a {
+    color: #303030;
+    font-weight: 500;
 }
+
 .custom-navbar .navbar-toggle {
     border: none;
     padding-top: 10px;
 }
+
 .custom-navbar .navbar-toggle .icon-bar {
-    background: #FF8C5F;
+    background: #303030;
     border-color: transparent;
 }
 
-.activeState {
-    background: #FF8C5F;
-}
 
 @media(min-width:768px){
     .custom-navbar {
@@ -492,8 +359,21 @@ p {
 
 }
 
+
+#introduction {
+padding-top: 100px;
+padding-bottom: 60px;
+}
+
+.introduction-text {
+  font-size: 30px;
+  /* color: #cecece; */
+  padding-top: 75px;
+}
+
+
 /* home section */
-#home {
+#about {
     background: url('../images/landingpage.png') no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
@@ -518,12 +398,12 @@ p {
   font-size: 15px;
 }
 
-.selected-work-text {
+/* .selected-work-text {
   font-size: 30px;
   color: #cecece;
   letter-spacing: 0.2em;
   padding-top: 50px;
-}
+} */
 
 
 
@@ -613,7 +493,7 @@ p {
 /* FILTER CSS */
 .filter-wrapper {
     width: 100%;
-    margin: 40px 0 24px 0;
+    margin: 0px 0 40px 0;
     overflow: hidden;
     text-align: center;
 }
@@ -633,15 +513,22 @@ p {
     transition: all 0.4s ease-in-out;
 }
 .filter-wrapper li .selected,
-.filter-wrapper li a:focus,
-.filter-wrapper li a:hover {
-    /* background: #FFD321; */
-    color: #ffffff;
-    /* outline: none; */
-
-    background: #FF8C5F;
+.filter-wrapper li a:focus{
+    color: #303030;
+		font-weight: bold;
+		/* text-decoration: underline; */
+		border-bottom:1px solid #303030;
+    padding-bottom:1px;
 
 }
+
+.filter-wrapper li a:hover {
+    color: #303030;
+		font-weight: bold;
+    /* background: #303030; */
+}
+
+
 
 /* ISOTOPE BOX CSS */
 
@@ -670,51 +557,24 @@ p {
     height: 100%;
     overflow: hidden;
 }
-.fluid-img {
-    width: 100%;
-    display: block;
-}
-
-
-/*Milestone*/
-
-.milestone-module{
-
-
-}
-
-#about .project-each h2{
-    font-size: 30px;
-    color: #FFD321;
-}
 
 
 
-#about .project-each{
-    margin-top: 60px;
-}
-
-#about .proj-img img{
-    margin: 10px;
-    display: block;
-    max-width: 100%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-}
-#about .proj-img h4{
-   font-size: 12px;
-    color: #696969;
-    font-weight: 100;
-    font-style: italic;
-    text-align: center;
-}
 
 /*selectedprojects*/
 
 .selectedprojects-des {
     padding-bottom: 40px;
-    font-family: 'Muli', sans-serif;
+		color: #303030;
+		/* font-family: "Helvetica Neue",Arial,sans-serif; */
+		font-family: 'Ubuntu', sans-serif;
+		/* font-weight: 500; */
+		font-style: normal;
+		font-size: 18px;
+		/* letter-spacing: .09em; */
+		text-rendering: optimizeLegibility;
+		transition: all 0.3s ease-in-out;
+		cursor: pointer;
 
 }
 
@@ -811,23 +671,22 @@ footer {
 
 
 #lexmark {
-background: url('../images/lexmarkpage.png') no-repeat;
--webkit-background-size: cover;
-background-size: cover;
-
-background-position: center;
-background-color: #fff;
-display: -webkit-box;
-display: -webkit-flex;
-display: -ms-flexbox;
-display: flex;
--webkit-box-align: center;
--webkit-align-items: center;
--ms-flex-align: center;
-align-items: center;
-height: 100vh;
-text-align: center;
-  }
+	background: url('../images/lexmarkpage.png') no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center;
+	background-color: #fff;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	height: 100vh;
+	text-align: center;
+}
 
 #vegout {
   background: url('../images/vegoutpage.png') no-repeat;
@@ -847,8 +706,97 @@ text-align: center;
   text-align: center;
 }
 
-#michiganmed {
-  background: url('../images/michiganmedicinelanding.png') no-repeat;
+#pawls {
+	background: url('../images/pawlspage.png') no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center;
+	background-color: #fff;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	height: 100vh;
+	text-align: center;
+  }
+#cnbc {
+	background: url('../images/cnbclanding.png') no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+  background-position: center;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+#veggarden {
+	background: url('../images/veggardenpage.png') no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+          }
+
+#brewary {
+  background: url('../images/brewerypage.png') no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+ 	-webkit-align-items: center;
+	-ms-flex-align: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+#google {
+  background: url('../images/googlepage.png') no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+	-ms-flex-align: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+#comerica {
+	background: url('../images/comericapage.png') no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center;
@@ -864,111 +812,6 @@ text-align: center;
   height: 100vh;
   text-align: center;
 }
-#pawls {
-background: url('../images/pawlspage.png') no-repeat;
--webkit-background-size: cover;
-background-size: cover;
-background-position: center;
-background-color: #fff;
-display: -webkit-box;
-display: -webkit-flex;
-display: -ms-flexbox;
-display: flex;
--webkit-box-align: center;
--webkit-align-items: center;
--ms-flex-align: center;
-align-items: center;
-height: 100vh;
-text-align: center;
-  }
-      #cnbc {
-      background: url('../images/cnbclanding.png') no-repeat;
-      -webkit-background-size: cover;
-      background-size: cover;
-      background-position: center;
-      background-color: #fff;
-      display: -webkit-box;
-      display: -webkit-flex;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-align: center;
-      -webkit-align-items: center;
-      -ms-flex-align: center;
-      align-items: center;
-      height: 100vh;
-      text-align: center;
-        }
-
-        #veggarden {
-        background: url('../images/veggardenpage.png') no-repeat;
-        -webkit-background-size: cover;
-        background-size: cover;
-        background-position: center;
-        background-color: #fff;
-        display: -webkit-box;
-        display: -webkit-flex;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-align: center;
-        -webkit-align-items: center;
-        -ms-flex-align: center;
-        align-items: center;
-        height: 100vh;
-        text-align: center;
-          }
-
-          #brewary {
-          background: url('../images/brewerypage.png') no-repeat;
-          -webkit-background-size: cover;
-          background-size: cover;
-          background-position: center;
-          background-color: #fff;
-          display: -webkit-box;
-          display: -webkit-flex;
-          display: -ms-flexbox;
-          display: flex;
-          -webkit-box-align: center;
-          -webkit-align-items: center;
-          -ms-flex-align: center;
-          align-items: center;
-          height: 100vh;
-          text-align: center;
-            }
-
-      #google {
-      background: url('../images/googlepage.png') no-repeat;
-      -webkit-background-size: cover;
-      background-size: cover;
-      background-position: center;
-      background-color: #fff;
-      display: -webkit-box;
-      display: -webkit-flex;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-align: center;
-      -webkit-align-items: center;
-      -ms-flex-align: center;
-      align-items: center;
-      height: 100vh;
-      text-align: center;
-        }
-  #comerica {
-    background: url('../images/comericapage.png') no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-position: center;
-    background-color: #fff;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    height: 100vh;
-    text-align: center;
-      }
 
 @media screen and (min-width: 992px) {
     @-moz-document url-prefix() {

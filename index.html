@@ -29,6 +29,10 @@
 	<link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Amiko&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
 </head>
 
 
@@ -36,9 +40,19 @@
 <body data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
 
 
-	<section id="home">
+
+	<section id="introduction">
 		<div class="container">
 			<div class="row">
+					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+						<h1 class="introduction-text">My greatest strength as a designer is that I genuinely care about the people I serve. Accessibility & design ethics are huge passions of mine.</h1>
+							<p class="text-center">View My Work <i class="fas fa-long-arrow-alt-down"></i></p>
+
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+						<img src="images/me.jpg" width=100% alt="me at brooklyn">
+					</div>
+				</div>
 			</div>
 		</div>
 	</section>
@@ -48,14 +62,12 @@
 <section class="navbar navbar-fixed-top custom-navbar" role="navigation">
 	<div class="container">
 		<div class="navbar-header">
-
 			<button class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
 				<span class="icon icon-bar"></span>
 				<span class="icon icon-bar"></span>
 				<span class="icon icon-bar"></span>
 			</button>
-
-			<a href="index.html" class="navbar-brand logo">M</a>
+			<a href="index.html" class="navbar-brand">MICHELLE KIM</a>
 		</div>
 		<div class="collapse navbar-collapse" id="myNavbar">
 			<ul class="nav navbar-nav navbar-right">
@@ -63,104 +75,88 @@
 				<li><a href="#about">ABOUT</a></li>
 				<!-- <li><a href="#resume" class="smoothScroll">RESUME</a></li> -->
 				<li><a target="_blank" href="https://kminjin.github.io/documents/michellekim.pdf" class="smoothScroll">RESUME</a></li>
-
 			</ul>
 		</div>
 	</div>
 </section>
 
 </head>
+
 <body>
-
-
-
-<!-- portfolio section -->
-<div id="work">
+<!-- Portfolio Section -->
+<section id="work">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 col-sm-12">
-				<h1 class="selected-work-text">MY WORK</h1>
-				<!-- <h2 class="selected-work">UX Designer, Graduating from University of Michigan in May 2020</h2> -->
-				<!-- ISO section -->
+				<!-- <p class="selected-work-text">filters</p> -->
+				<!-- Filtering -->
 				<div class="iso-section">
 					<ul class="filter-wrapper clearfix amiko">
-                   		 <li><a href="#" data-filter="*" class="selected opc-main-bg">All</a></li>
-                   		 <li><a href="#" class="opc-main-bg" data-filter=".design">UX DESIGN</a></li>
-                   		 <li><a href="#" class="opc-main-bg" data-filter=".research">UX RESEARCH</a></li>
-                       <li><a href="#" class="opc-main-bg" data-filter=".arvr">AR&VR</a></li>
-
-               		</ul>
-
-
-
-               		<div class="wow fadeIn" data-wow-delay="0.4s">
-               			<div class="iso-box-wrapper col4-iso-box">
-											<div class="content iso-box design col-lg-4 col-md-4 col-sm-6 col-xs-12" id="second" onclick="location.href='lexmark.html'">
-											 <a href="lexmark.html" ><img src="images/lexmarktransparent.png" alt="Veg Out"></a>
-											 <div class="selectedprojects-des">
-			 <h2>Lexmark</h2>
-			 <h4>Internship | UX Design</h4>
-		 </div>
-	 </div>
-
-               				 <div class="left content iso-box design col-lg-4 col-md-4 col-sm-6 col-xs-12" id="first" onclick="location.href='vegout.html'">
-               				 	<a href="vegout.html" data-lightbox-gallery="portfolio-gallery"><img src="images/vegouttransparent.png" alt="Veg Out"></a>
-												<div class="selectedprojects-des">
-				<h2>Veg Out</h2>
-				<h4>Passion Project | Product Design</h4>
-			</div>
-		</div>
-
-			<div class="content iso-box design research col-lg-4 col-md-4 col-sm-6 col-xs-12" id="ninth" onclick="location.href='garden.html'">
-			 <a href="pawls.html" ><img src="images/pawls.png" alt="Veg Out"></a>
-			 <div class="selectedprojects-des">
-			<h2>PAWLS</h2>
-			<h4>Course Project | Product Design</h4>
-			</div>
-		</div>
-
-				<div class="research content iso-box design col-lg-4 col-md-4 col-sm-6 col-xs-12" id="third" onclick="location.href='cnbc.html'">
-				 <a href="cnbc.html" ><img src="images/cnbctransparent.png" alt="Veg Out"></a>
-				 <div class="selectedprojects-des">
-<h2>CNBC</h2>
-<h4>Client Project | UX Research</h4>
-</div>
-</div>
-
-<div class="content iso-box arvr col-lg-4 col-md-4 col-sm-6 col-xs-12" id="fourth" onclick="location.href='garden.html'">
- <a href="garden.html" ><img src="images/veggardentransparent.png" alt="Veg Out"></a>
- <div class="selectedprojects-des">
-<h2>Garden</h2>
-<h4>Course Project | VR Design</h4>
-</div>
-</div>
-<div class="content iso-box arvr col-lg-4 col-md-4 col-sm-6 col-xs-12" id="eighth" onclick="location.href='garden.html'">
- <a href="brewary.html" ><img src="images/brewery.png" alt="Veg Out"></a>
- <div class="selectedprojects-des">
-<h2>brewARy</h2>
-<h4>Course Project | AR Design</h4>
-</div>
-</div>
-<div class="design content iso-box col-lg-4 col-md-4 col-sm-6 col-xs-12" id="fifth" onclick="location.href='gintern.html'">
- <a href="gintern.html" ><img src="images/google2transparent.png" alt="Veg Out"></a>
- <div class="selectedprojects-des">
-<h2>Uvent</h2>
-<h4>Google Design Challenge | UX Design</h4>
-</div>
-</div>
-<div class="research content iso-box col-lg-4 col-md-4 col-sm-6 col-xs-12" id="sixth" onclick="location.href='comerica.html'">
- <a href="comerica.html" ><img src="images/comerica2transparent.png" alt="Veg Out"></a>
- <div class="selectedprojects-des">
-<h2>Comerica</h2>
-<h4>Client Project | UX Research</h4>
-</div>
-</div>
-
-<!-- <div class="content iso-box research col-lg-6 col-md-6 col-sm-6 col-xs-6" id="seventh" onclick="location.href='michiganmed.html'">
- <a href="michiganmed.html" ><img src="images/michiganmed2transparent.png" alt="Veg Out"></a>
-<h2>Michigan Med</h2>
-<h4>Team Project | UX Research</h4>
-</div> -->
+							<!-- <li>Select:</li> -->
+              <li><a href="#" data-filter="*" class="selected opc-main-bg">All</a></li>
+              <li><a href="#" class="opc-main-bg" data-filter=".design">DESIGN</a></li>
+              <li><a href="#" class="opc-main-bg" data-filter=".research"> RESEARCH</a></li>
+              <li><a href="#" class="opc-main-bg" data-filter=".arvr">AR&VR</a></li>
+					</ul>
+  			<div class="wow fadeIn" data-wow-delay="0.4s">
+        	<div class="iso-box-wrapper col4-iso-box">
+						<!-- lexmark -->
+						<div class="content iso-box design col-lg-4 col-md-4 col-sm-6 col-xs-12" id="plexmark">
+							<a href="lexmark.html" ><img src="images/lexmarktransparent.png" alt="Veg Out"></a>
+							<div class="selectedprojects-des">
+			 					<h2>LEXMARK</h2>
+			 					<h4>Internship | UX Design</h4>
+		 					</div>
+	 					</div>
+						<div class="content iso-box design col-lg-4 col-md-4 col-sm-6 col-xs-12" id="pvegout">
+            	<a href="vegout.html" data-lightbox-gallery="portfolio-gallery"><img src="images/vegouttransparent.png" alt="Veg Out"></a>
+							<div class="selectedprojects-des">
+								<h2>VEG OUT</h2>
+								<h4>Passion Project | Product Design</h4>
+							</div>
+						</div>
+						<div class="content iso-box design research col-lg-4 col-md-4 col-sm-6 col-xs-12" id="ppawls">
+			 				<a href="pawls.html" ><img src="images/pawls.png" alt="Veg Out"></a>
+			 				<div class="selectedprojects-des">
+								<h2>PAWLS</h2>
+								<h4>Course Project | Product Design</h4>
+							</div>
+						</div>
+						<div class="research content iso-box design col-lg-4 col-md-4 col-sm-6 col-xs-12" id="pcnbc">
+				 			<a href="cnbc.html" ><img src="images/cnbctransparent.png" alt="Veg Out"></a>
+				 			<div class="selectedprojects-des">
+								<h2>CNBC</h2>
+								<h4>Client Project | UX Research</h4>
+							</div>
+						</div>
+						<div class="content iso-box arvr col-lg-4 col-md-4 col-sm-6 col-xs-12" id="pgarden">
+ 							<a href="garden.html" ><img src="images/veggardentransparent.png" alt="Veg Out"></a>
+ 							<div class="selectedprojects-des">
+								<h2>Garden</h2>
+								<h4>Course Project | VR Design</h4>
+							</div>
+						</div>
+						<div class="content iso-box arvr col-lg-4 col-md-4 col-sm-6 col-xs-12" id="pbrewery">
+ 							<a href="brewary.html" ><img src="images/brewery.png" alt="Veg Out"></a>
+ 							<div class="selectedprojects-des">
+								<h2>brewARy</h2>
+								<h4>Course Project | AR Design</h4>
+							</div>
+						</div>
+						<div class="design content iso-box col-lg-4 col-md-4 col-sm-6 col-xs-12" id="pgdesignchallenge">
+ 							<a href="gintern.html" ><img src="images/google2transparent.png" alt="Veg Out"></a>
+ 							<div class="selectedprojects-des">
+								<h2>UVENT</h2>
+								<h4>Design Challenge | Product Design</h4>
+							</div>
+						</div>
+						<div class="research content iso-box col-lg-4 col-md-4 col-sm-6 col-xs-12" id="pcomerica" onclick="location.href='comerica.html'">
+ 							<a href="comerica.html" ><img src="images/comerica2transparent.png" alt="Veg Out"></a>
+ 							<div class="selectedprojects-des">
+								<h2>COMERICA</h2>
+								<h4>Client Project | UX Research</h4>
+							</div>
+						</div>
                			</div>
                		</div>
 
@@ -168,26 +164,17 @@
 			</div>
 		</div>
 	</div>
-</div>
+</section>
 
-<!-- team section -->
+
 <section id="about">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-6 col-sm-12">
-		 <h1 class="selected-work-text">PASSIONATE ABOUT DESIGN ETHICS </h1>
-		 <p>My greatest strength as a designer is that I genuinely care about the people I serve and users are my highest priority. When designing, I strive for accessibility and usefulness. Good UX is good business.
-</p>
-<ul class="social-icon">
-	<li><a target="_blank" href="https://www.linkedin.com/in/mkimdesign/" class="fa fa-linkedin wow bounceIn" data-wow-delay="0.9s"></a></li>
-	<li><a target="_blank" href="https://github.com/kminjin" class="fa fa-github wow bounceIn" data-wow-delay="0.9s"></a></li>
-</ul>
-	 </div>
+		</div>
+	</div>
+</section>
 
-			<div class="col-md-6 col-sm-12">
-				 <img src="images/photoofme.jpg" style="width:100%" class= "animation" alt= "Vegout">
-			 </div>
-</div>
+
 
 
 <!-- footer section -->

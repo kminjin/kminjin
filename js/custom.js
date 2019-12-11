@@ -93,8 +93,7 @@ $(function(){
 
 
 
-/* Please ❤ this if you like it! */
-
+/* Progress To Top */
 
 
 (function($) { "use strict";
