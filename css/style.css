@@ -207,9 +207,6 @@ mark {
   margin-right: auto;
 }
 
-.centervert {
-  padding: 150px 0;
-}
 
 .team-wrapper{
   padding:20px;
@@ -368,7 +365,7 @@ padding-bottom: 60px;
 .introduction-text {
   font-size: 30px;
   /* color: #cecece; */
-  padding-top: 75px;
+  /* padding-top: 75px; */
 }
 
 
