@@ -371,6 +371,9 @@ padding-bottom: 55px;
     background: #404040;
     color: #ffffff;
 }
+#about button:focus {
+	outline:0;}
+
 
 #about hr{
 	width:20%;
