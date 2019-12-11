@@ -182,7 +182,7 @@ mark {
 
 /* Fun twirling logo */
 .logo {
-  font-size:50px;
+  /* font-size:50px; */
   border-radius:50%;
   -webkit-border-radius:50%;
   -moz-border-radius:50%;
@@ -363,7 +363,8 @@ padding-bottom: 60px;
 }
 
 .introduction-text {
-  font-size: 30px;
+  font-size: 24px;
+	font-family: 'Gelasio', serif;
   /* color: #cecece; */
   /* padding-top: 75px; */
 }
@@ -393,6 +394,16 @@ padding-bottom: 60px;
   text-align: center;
   font-family: 'Amiko', sans-serif;
   font-size: 15px;
+}
+
+.helvetica {
+  text-align: center;
+	font-family: "Helvetica Neue",Arial,sans-serif;
+
+  /* font-size: 15px; */
+}
+.gelasio {
+	font-family: 'Gelasio', serif;
 }
 
 /* .selected-work-text {
