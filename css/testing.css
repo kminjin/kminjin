@@ -1,4 +1,32 @@
 
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.left25 {
+  width: 25%;
+}
+
+.right75 {
+  width: 75%;
+}
+
+
+@media screen and (max-width: 800px) {
+  .column {
+    width: 100%;
+  }
+}
+
 
 /* Variables for color */
 :root {
@@ -175,11 +203,6 @@ mark {
   transform: rotate(360deg);
 }
 
-/* Content */
-.content {
-  /* padding: 20px; */
-}
-
 
 .center {
   display: block;
@@ -194,13 +217,10 @@ mark {
 
 
 
-
-
 body{
     background: #ffffff;
     font-family: 'Helvetica', sans-serif;
-		font-size: 15px;
-		line-height: 20px;
+		font-size: 16px;
     /* font-weight: 400; */
     position: relative;
 
@@ -354,6 +374,10 @@ padding-bottom: 55px;
   /* text-align: center; */
   font-family: 'Amiko', sans-serif;
   font-size: 15px;
+}
+
+.roboto{
+  font-family: 'Roboto', sans-serif;
 }
 
 .helvetica {
@@ -596,10 +620,10 @@ footer {
 
 }
 
-@media screen and (max-width: 767px) {
+/* @media screen and (max-width: 767px) {
     .contact-info-box { margin-bottom: 20px; }
     .contact-info-box:last-child { margin-bottom: 0; }
-}
+} */
 
 @media (max-width: 450px) {
     .heading {
@@ -620,4 +644,68 @@ footer {
         font-size: 16px;
         padding-bottom: 40px;
     }
+}
+
+
+
+
+
+
+/* fixed side nav */
+body {
+  padding: 2em 2em 2em 17em;
+}
+
+
+.toc {
+  position: fixed;
+  left: 3em;
+  top: 5em;
+  padding: 1em;
+  width: 14em;
+  line-height: 2;
+}
+.toc ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.toc ul ul {
+  padding-left: 1em;
+}
+.toc li a {
+  display: inline-block;
+  color: #aaa;
+  text-decoration: none;
+  transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+}
+.toc li.visible > a {
+  color: #111;
+  -webkit-transform: translate(5px);
+          transform: translate(5px);
+}
+
+
+
+.contents {
+  /* padding: 1em; */
+  max-width: 800px;
+  /* font-size: 1.2em; */
+}
+
+
+.contents img {
+  max-width: 100%;
+}
+
+
+.contents h2,
+.contents h3 {
+  padding-top: 1em;
+}
+
+@media screen and (max-width: 1200px) {
+  body {
+    font-size: 14px;
+  }
 }
