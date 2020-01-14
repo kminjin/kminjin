@@ -11,10 +11,15 @@
 	--grey: #ecedf3;
 	--black: #080808;
 	--black-blue: #1f2029;
-	--black-blue-light: #353746;
+	--black-blue-light: #353746
 	--black-blue-light-2: #404255;
 	--black-blue-light-3: #4b4d64;
 	--black-light: #424455;
+}
+
+.content {
+  padding-left: 45px;
+  padding-right: 45px;
 }
 
 /* #Progress
@@ -111,6 +116,17 @@ mark {
   color: black;
 }
 
+.greenbg{
+	background: #0E532B;
+}
+
+.whitefont{
+	color: #fff;
+}
+
+.greenfont{
+	color:#0E532B;
+}
 /* index background color for each project */
 
 #pvegout, #plexmark, #pcnbc, #pgarden, #ppawls, #pcomerica, #pgdesignchallenge, #pbrewery, #ppawls:hover, #plexmark:hover, #pbrewery:hover, #pgarden:hover, #pgdesignchallenge:hover, #ppawls:hover{
@@ -134,7 +150,7 @@ mark {
 }
 
 #plexmark:hover {
-	background: #289E57;
+	background: #0E532B;
 }
 
 #pcnbc:hover {
@@ -176,15 +192,15 @@ mark {
 }
 
 /* Content */
-.content {
-  /* padding: 20px; */
-}
-
 
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.right {
+	align:right;
 }
 
 
@@ -198,9 +214,8 @@ mark {
 
 body{
     background: #ffffff;
-    font-family: 'Helvetica', sans-serif;
-		font-size: 15px;
-		line-height: 20px;
+    /* font-family: 'Helvetica', sans-serif; */
+		/* font-size: 15px; */
     /* font-weight: 400; */
     position: relative;
 
@@ -214,20 +229,54 @@ html,body {
 
 }
 
+h1, h2{
+	font-family: 'Playfair Display', serif;
+}
 
 
+h3{
+	font-family: Rubik, sans-serif;
+	font-size: 17px;
+	line-height: 21px;
+	letter-spacing: 2px;
+	/* font-weight:400; */
+}
 
+h4{
+	font-family: Rubik, sans-serif;
+	font-size: 14px;
+	line-height: 15px;
+	letter-spacing: 1px;
+	font-weight:bold;
+}
 
-/* h1,h2,h3,h4 {
-    font-weight: bold;
-} */
+.lexmarkcolor{
+	color: #0D2818;
+}
 
+h5{
+	/* font-family: Rubik, sans-serif; */
+	font-size: 12px;
+	letter-spacing: 0.5px;
+}
+
+p, li{
+	font-family: 'Source sans pro', sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+}
 .contactform{
     font-size: 30px;
     padding-bottom: 0px;
     /*    color: white;*/
 }
 
+
+.title{
+	font-size: 50px;
+	line-height: 50px;
+	font-family: 'Playfair Display', serif;
+}
 .heading {
     font-size: 30px;
     padding-bottom: 60px;
@@ -253,10 +302,26 @@ html,body {
     font-weight: bold;
 }
 
+#overview {
+    padding-top: 155px;
+		padding-bottom: 120px;
+}
+
+#problem,#overviewimg, #section{
+	padding-top: 120px;
+	padding-bottom: 130px;
+}
+
+#graybg{
+	padding-top: 120px;
+	padding-bottom: 130px;
+	background: #f9f9f9;
+}
 
 #about,
 #team, #contact {
     padding-top: 100px;
+		padding-bottom: 70px;
     /* padding-bottom:80px; */
 }
 
@@ -356,6 +421,12 @@ padding-bottom: 55px;
   font-size: 15px;
 }
 
+.mont{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 42px;
+	line-height: normal;
+	font-weight: 700;
+}
 .helvetica {
   /* text-align: center; */
 	font-family: "Helvetica Neue",Arial,sans-serif;
@@ -389,6 +460,7 @@ padding-bottom: 55px;
 	width:20%;
 	/* align: left; */
 }
+
 
 
 /* portfolio work section */
@@ -501,13 +573,11 @@ padding-bottom: 55px;
 }
 #about h3 {
     color: #202020;
-    line-height: 21px;
 }
 
 
 #about p {
     color: #202020;
-    line-height: 15px;
 }
 
 
