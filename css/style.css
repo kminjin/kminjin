@@ -120,6 +120,7 @@ mark {
 	background: #0E532B;
 }
 
+
 .whitefont{
 	color: #fff;
 }
@@ -127,6 +128,8 @@ mark {
 .greenfont{
 	color:#0E532B;
 }
+
+
 /* index background color for each project */
 
 #pvegout, #plexmark, #pcnbc, #pgarden, #ppawls, #pcomerica, #pgdesignchallenge, #pbrewery, #ppawls:hover, #plexmark:hover, #pbrewery:hover, #pgarden:hover, #pgdesignchallenge:hover, #ppawls:hover{
@@ -318,6 +321,23 @@ p, li{
 	background: #f9f9f9;
 }
 
+#gifbg{
+	padding-top: 120px;
+	padding-bottom: 130px;
+	background: #181A21;
+}
+
+#solutiongray{
+	padding-top: 120px;
+	/* padding-bottom: 130px; */
+	background: #f9f9f9;
+}
+
+#solutionwhite{
+	padding-top: 120px;
+	/* padding-bottom: 130px; */
+	background: #fff;
+}
 #about,
 #team, #contact {
     padding-top: 100px;
@@ -489,6 +509,9 @@ padding-bottom: 55px;
 #work img:hover {
     /* opacity: 0.6; */
 }
+
+
+
 /* FILTER CSS */
 .filter-wrapper {
     width: 100%;
@@ -651,6 +674,9 @@ footer {
             width: 33.333%;
         }
     }
+		#gifbg img{
+			width:40%;
+		}
 }
 
 @media ( max-width: 980px ) {
