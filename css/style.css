@@ -120,6 +120,10 @@ mark {
 	background: #0E532B;
 }
 
+.pinkbg{
+	background: #E2B0B7;
+}
+
 
 .whitefont{
 	color: #fff;
@@ -307,12 +311,12 @@ p, li{
 
 #overview {
     padding-top: 155px;
-		padding-bottom: 120px;
+		padding-bottom: 80px;
 }
 
 #problem,#overviewimg, #section{
-	padding-top: 120px;
-	padding-bottom: 130px;
+	padding-top: 100px;
+	padding-bottom: 110px;
 }
 
 #graybg{
