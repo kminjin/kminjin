@@ -1,4 +1,202 @@
+body {
+  background-color: #fefefe;
+}
+a:hover {
+  text-decoration: none;
+}
+img {
+  width: 100%;
+}
+.content-wrapper {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.home .content-wrapper {
+  max-width: 1000px;
+}
+h1,
+h2 {
+  font-family: 'Helvetica', sans-serif;
+}
+p,
+ul {
+  font-family: 'Arimo', sans-serif;
+  line-height: 1.4em;
+}
+h1 {
+  line-height: 1.4em;
+}
+h2 {
+  font-size: 14px;
+}
+.h-divider {
+  width: 44px;
+  height: 5px;
+  background: #F9C1B6;
+  margin: 35px 0;
+}
+.work {
+  width: 700px;
+  margin: 270px auto 0;
+}
+.work h1 {
+  color: #000;
+  font-size: 48px;
+  font-weight: 700;
+  margin: 0 0 10px;
+  line-height: 60px;
+}
+.work h1.number {
+  opacity: .2;
+  font-size: 100px;
+  margin-bottom: -20px;
+}
+.work h2 {
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0;
+}
+.work p {
+  color: #575d65;
+  margin-bottom: 20px;
+}
+.work .tag {
+  padding: 5px 8px 7px;
+  background-color: #ebedf1;
+  border-radius: 3px;
+  display: inline-block;
+  margin-right: 10px;
+  color: #8D8E8F;
+  margin-bottom: 30px;
+}
+.work .button {
+  float: right;
+  padding: 20px 44px 20px 20px;
+  font-weight: 700;
+  background-image: url("/img/right_arrow.svg");
+  background-position: 142px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin-top: 50px;
+  transition: all 0.1s ease-in-out;
+}
+.work a.button:hover {
+  cursor: pointer;
+  background-position: 146px;
+}
+.work .fb h2,
+.work .fb h1.number {
+  color: #3B5998;
+}
+.work .fb a.button {
+  color: #fff;
+  background-color: #3b5998;
+}
+.work .fb a.button:hover {
+  background-color: #4c55bb;
+}
+.work .palantir {
+  margin-top: 200px;
+}
+.work .palantir h2 {
+  color: #000;
+}
+.work .palantir a.button {
+  color: #fff;
+  background-color: #2F2F34;
+}
+.work .palantir a.button:hover {
+  background-color: #000;
+}
+.work .uber_capacity {
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+.work .uber_capacity a.button {
+  color: #fff;
+  background-color: #1FBAD6;
+}
 
+.img-hover-zoom {
+  /* height: 300px; /* [1.1] Set it as per your need */ */
+  overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+}
+
+/* [2] Transition property for smooth transformation of images */
+.img-hover-zoom img {
+  transition: transform 2s ease;
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.img-hover-zoom:hover img {
+  transform: scale(1.1);
+}
+
+.work {
+  width: 700px;
+  margin: 270px auto 0;
+}
+
+.work h1 {
+  color: #000;
+  font-size: 48px;
+  font-weight: 700;
+  margin: 0 0 10px;
+  line-height: 60px;
+}
+.work h1.number {
+  opacity: .2;
+  font-size: 100px;
+  margin-bottom: -20px;
+}
+.work h2 {
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.work .fb h2,
+.work .fb h1.number {
+  color: #3B5998;
+}
+.tag {
+  padding: 5px 8px 7px;
+  background-color: #ebedf1;
+  border-radius: 3px;
+  display: inline-block;
+  margin-right: 10px;
+  color: #8D8E8F;
+  margin-bottom: 30px;
+	font-size:12px
+}
+
+.indextitle{
+	font-family: 'Helvetica', sans-serif;
+	font-size: 32px;
+	font-weight: 700;
+	margin: 0 0 10px;
+
+}
+
+.vegoutindex{
+	background-color: #B6D4F1;
+}
+
+.selectedprojects-des {
+    /* padding-bottom: 35px; */
+			padding-left: 40px;
+		/* color: #fff; */
+		/* font-family: "Helvetica Neue",Arial,sans-serif; */
+		/* font-family: 'Ubuntu', sans-serif; */
+		/* font-weight: 500; */
+		font-style: normal;
+		font-size: 18px;
+		/* letter-spacing: .09em; */
+		text-rendering: optimizeLegibility;
+		transition: all 0.3s ease-in-out;
+		cursor: default;
+}
 
 /* Variables for color */
 :root {
@@ -136,7 +334,7 @@ mark {
 
 /* index background color for each project */
 
-#pvegout, #plexmark, #pcnbc, #pgarden, #ppawls, #pcomerica, #pgdesignchallenge, #pbrewery, #ppawls:hover, #plexmark:hover, #pbrewery:hover, #pgarden:hover, #pgdesignchallenge:hover, #ppawls:hover{
+/* #pvegout, #plexmark, #pcnbc, #pgarden, #ppawls, #pcomerica, #pgdesignchallenge, #pbrewery, #ppawls:hover, #plexmark:hover, #pbrewery:hover, #pgarden:hover, #pgdesignchallenge:hover, #ppawls:hover{
 	transition: all 0.1s;
 	-webkit-transition: all 0.1s;
 	-o-transition: all 0.1s;
@@ -181,7 +379,7 @@ mark {
 
 #pbrewery:hover{
   background: #1F77A3;
-}
+} */
 
 /* Fun twirling logo */
 .logo {
@@ -498,8 +696,8 @@ padding-bottom: 55px;
 }
 #work {
     padding-top: 60px;
-    background: #f9f9f9;
-    text-align: center;
+    background: #fff;
+
 }
 #work .container {
     width: 100%;
@@ -571,6 +769,7 @@ padding-bottom: 55px;
     float: left;
     overflow: hidden;
     margin-bottom: 20px;
+
 }
 .iso-box > a {
     display: block;
@@ -582,19 +781,7 @@ padding-bottom: 55px;
 
 /*selectedprojects*/
 
-.selectedprojects-des {
-    padding-bottom: 40px;
-		color: #303030;
-		/* font-family: "Helvetica Neue",Arial,sans-serif; */
-		font-family: 'Ubuntu', sans-serif;
-		/* font-weight: 500; */
-		font-style: normal;
-		font-size: 18px;
-		/* letter-spacing: .09em; */
-		text-rendering: optimizeLegibility;
-		transition: all 0.3s ease-in-out;
-		cursor: pointer;
-}
+
 
 
 /* team section */
@@ -674,6 +861,7 @@ footer {
 	text-align: center;
 }
 
+
 /* responsiveness */
 @media screen and (min-width: 992px) {
     @-moz-document url-prefix() {
@@ -685,11 +873,15 @@ footer {
 		#gifbg img{
 			width:40%;
 		}
+
+    /* .tag {
+        font-size: 14px;
+    } */
 }
 
 @media ( max-width: 980px ) {
-    .custom-navbar .navbar-brand {
-        font-size: 24px;
+    .tag {
+        font-size: 10px;
     }
     #about img {
         padding-top: 40px;
@@ -703,6 +895,9 @@ footer {
 @media screen and (max-width: 767px) {
     .contact-info-box { margin-bottom: 20px; }
     .contact-info-box:last-child { margin-bottom: 0; }
+    .tag {
+        font-size: 14px;
+    }
 }
 
 @media (max-width: 450px) {
@@ -724,4 +919,6 @@ footer {
         font-size: 16px;
         padding-bottom: 40px;
     }
+
+
 }
