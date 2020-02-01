@@ -216,55 +216,6 @@ mark {
 }
 
 
-/* index background color for each project */
-
-/* #pvegout, #plexmark, #pcnbc, #pgarden, #ppawls, #pcomerica, #pgdesignchallenge, #pbrewery, #ppawls:hover, #plexmark:hover, #pbrewery:hover, #pgarden:hover, #pgdesignchallenge:hover, #ppawls:hover{
-	transition: all 0.1s;
-	-webkit-transition: all 0.1s;
-	-o-transition: all 0.1s;
-	-moz-transition: all 0.1s;
-}
-
-#pvegout:hover h2, #plexmark:hover h2, #pcnbc:hover h2,#pgarden:hover h2, #pgdesignchallenge:hover h2, #pcomerica:hover h2, #pbrewery:hover h2, #ppawls:hover h2 {
-  color: #fff;
-}
-
-
-#pvegout:hover h4, #plexmark:hover h4, #pcnbc:hover h4, #pgarden:hover h4, #pgdesignchallenge:hover h4, #pcomerica:hover h4, #pbrewery:hover h4, #ppawls:hover h4 {
-	color: #fff;
-}
-
-#pvegout:hover {
-	background: #EDB059;
-}
-
-#plexmark:hover {
-	background: #0E532B;
-}
-
-#pcnbc:hover {
-	background: #FEC41A;
-}
-#ppawls:hover{
-  background:#E2B0B7;
-}
-
-#pgarden:hover {
-	background: #E24747;
-}
-
-#pgdesignchallenge:hover {
-	background: #4EBFD8;
-}
-
-#pcomerica:hover {
-	background: #D094C0;
-}
-
-#pbrewery:hover{
-  background: #1F77A3;
-} */
-
 /* Fun twirling logo */
 .logo {
   /* font-size:50px; */
@@ -290,11 +241,6 @@ mark {
 
 .right {
 	align:right;
-}
-
-
-.team-wrapper{
-  padding:20px;
 }
 
 
@@ -388,39 +334,6 @@ h5{
     font-weight: bold;
 }
 
-#overview {
-    padding-top: 155px;
-		padding-bottom: 80px;
-}
-
-#problem,#overviewimg, #section{
-	padding-top: 100px;
-	padding-bottom: 110px;
-}
-
-#graybg{
-	padding-top: 120px;
-	padding-bottom: 130px;
-	background: #f9f9f9;
-}
-
-#gifbg{
-	padding-top: 120px;
-	padding-bottom: 130px;
-	background: #181A21;
-}
-
-#solutiongray{
-	padding-top: 120px;
-	/* padding-bottom: 130px; */
-	background: #f9f9f9;
-}
-
-#solutionwhite{
-	padding-top: 120px;
-	/* padding-bottom: 130px; */
-	background: #fff;
-}
 #about,
 #team, #contact {
     padding-top: 100px;
@@ -599,70 +512,6 @@ padding-bottom: 55px;
 
 
 
-/* FILTER CSS */
-.filter-wrapper {
-    width: 100%;
-    margin: 0px 0 40px 0;
-    overflow: hidden;
-}
-
-.filter-wrapper li {
-    display: inline-block;
-    margin: 4px;
-}
-
-.filter-wrapper li a {
-    color: #999999;
-    font-size: 13px;
-    font-weight: bold;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    padding: 8px 17px;
-    display: block;
-    text-decoration: none;
-    transition: all 0.4s ease-in-out;
-}
-
-.filter-wrapper li .selected,
-.filter-wrapper li a:focus{
-    color: #303030;
-		font-weight: bold;
-		/* text-decoration: underline; */
-		border-bottom:1px solid #303030;
-    padding-bottom:1px;
-}
-
-.filter-wrapper li a:hover {
-    color: #303030;
-		font-weight: bold;
-}
-
-/* ISOTOPE BOX CSS */
-.iso-box-wrapper {
-    width: 100%;
-    padding-bottom: 0;
-    clear: both;
-    position: relative;
-}
-.iso-box {
-    position: relative;
-    min-height: 50px;
-    float: left;
-    overflow: hidden;
-    margin-bottom: 20px;
-
-}
-.iso-box > a {
-    display: block;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-}
-
-
-/*selectedprojects*/
-
-
 
 
 /* team section */
@@ -693,54 +542,6 @@ footer {
 }
 
 
-#lexmark {
-	background: url('../images/lexmarkpage.png') no-repeat;
-}
-
-#vegout {
-  background: url('../images/vegoutpage.png') no-repeat;
-}
-
-#pawls {
-	background: url('../images/pawlspage.png') no-repeat;
-  }
-
-#cnbc {
-	background: url('../images/cnbclanding.png') no-repeat;
-}
-
-#veggarden {
-	background: url('../images/veggardenpage.png') no-repeat;
-}
-
-#brewary {
-  background: url('../images/brewerypage.png') no-repeat;
-}
-
-#google {
-  background: url('../images/googlepage.png') no-repeat;
-}
-
-#comerica {
-	background: url('../images/comericapage.png') no-repeat;
-}
-
-#lexmark, #vegout, #pawls, #cnbc,#veggarden, #brewary, #google, #comerica {
-	-webkit-background-size: cover;
-	background-size: cover;
-	background-position: center;
-	background-color: #fff;
-	display: -webkit-box;
-	display: -webkit-flex;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-align: center;
-	-webkit-align-items: center;
-	-ms-flex-align: center;
-	align-items: center;
-	height: 100vh;
-	text-align: center;
-}
 
 /* responsiveness */
 @media screen and (min-width: 992px) {
