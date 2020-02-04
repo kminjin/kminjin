@@ -686,6 +686,15 @@ footer {
 
 
 
+    .footerlink {
+      display: none;
+
+    }
+
+    .w-inline-block{
+
+      display:none;
+    }
 }
 
 @media (max-width: 450px) {
