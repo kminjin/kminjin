@@ -1,22 +1,60 @@
-#lexmark {
-background: url('../images/intro.png') no-repeat;
--webkit-background-size: cover;
-background-size: cover;
+.footerlink {
+  display: inline-block;
+  padding-left: 0px;
+  font-family: Rubik, sans-serif;
+  color: #000;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+}
+.linkforfooter {
+  text-decoration: none;
+}
+.w-inline-block{
+  max-width:100%;
+  display:inline-block;
+}
 
-background-position: center;
-background-color: #fff;
-display: -webkit-box;
-display: -webkit-flex;
-display: -ms-flexbox;
-display: flex;
--webkit-box-align: center;
--webkit-align-items: center;
--ms-flex-align: center;
-align-items: center;
-height: 100vh;
-width:100%;
-text-align: center;
-  }
+.navi-link {
+  margin-right: 0px;
+  margin-bottom: 15px;
+  margin-left: 0px;
+  padding: 0px;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  -ms-grid-row-align: auto;
+  align-self: auto;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  font-family: Rubik, sans-serif;
+  color: #000;
+  font-weight: 400;
+  text-align: left;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+}
+
+
+
+
+.navi-link.foot {
+  margin-bottom: 0px;
+  margin-left: 30px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+  background-color: transparent;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+}
+
+
+
+
+
 
 
 /* [1] The container */
@@ -516,7 +554,7 @@ padding-bottom: 55px;
 
 /* index about section */
 
-#about .btn {
+.btn {
     background: transparent;
     border-radius: 0;
     border: 1px solid #404040;
@@ -525,13 +563,10 @@ padding-bottom: 55px;
     /* padding: 16px 42px; */
     transition: all 0.2s ease-in-out;
 }
-#about .btn:hover {
+.btn:hover {
     background: #404040;
     color: #ffffff;
 }
-#about button:focus {
-	outline:0;}
-
 
 #about hr{
 	width:20%;
