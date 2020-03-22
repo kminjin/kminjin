@@ -11,37 +11,29 @@
   cursor: pointer;
 }
 
-body {
-  background-color: #fefefe;
-}
+/* Nonspecialized code */
 a:hover {
   text-decoration: none;
 }
+
 img {
   width: 100%;
 }
+
 .content-wrapper {
   position: relative;
-  max-width: 800px;
+  max-width: 900px;
   margin: 0 auto;
 }
-.home .content-wrapper {
-  max-width: 1000px;
-}
-h1,
-h2 {
-  font-family: 'Helvetica', sans-serif;
-}
-p,
-ul {
-  font-family: 'Arimo', sans-serif;
-  line-height: 1.4em;
-}
+
 h1 {
-  line-height: 1.4em;
+font-size: 32px;
 }
-h2 {
-  font-size: 14px;
+
+.description {
+  font-size: 17px;
+  font-weight:lighter;
+  color:#9E9E9E;
 }
 .h-divider {
   width: 44px;
@@ -50,6 +42,7 @@ h2 {
   margin: 35px 0;
 }
 .work {
+  padding-top: 80px;
   width: 700px;
   margin: 270px auto 0;
 }
@@ -108,27 +101,6 @@ h2 {
 }
 .work .fb a.button:hover {
   background-color: #4c55bb;
-}
-.work .palantir {
-  margin-top: 200px;
-}
-.work .palantir h2 {
-  color: #000;
-}
-.work .palantir a.button {
-  color: #fff;
-  background-color: #2F2F34;
-}
-.work .palantir a.button:hover {
-  background-color: #000;
-}
-.work .uber_capacity {
-  margin-top: 200px;
-  margin-bottom: 200px;
-}
-.work .uber_capacity a.button {
-  color: #fff;
-  background-color: #1FBAD6;
 }
 
 .img-hover-zoom {
@@ -345,54 +317,6 @@ mark {
 }
 
 
-/* index background color for each project */
-
-/* #pvegout, #plexmark, #pcnbc, #pgarden, #ppawls, #pcomerica, #pgdesignchallenge, #pbrewery, #ppawls:hover, #plexmark:hover, #pbrewery:hover, #pgarden:hover, #pgdesignchallenge:hover, #ppawls:hover{
-	transition: all 0.1s;
-	-webkit-transition: all 0.1s;
-	-o-transition: all 0.1s;
-	-moz-transition: all 0.1s;
-}
-
-#pvegout:hover h2, #plexmark:hover h2, #pcnbc:hover h2,#pgarden:hover h2, #pgdesignchallenge:hover h2, #pcomerica:hover h2, #pbrewery:hover h2, #ppawls:hover h2 {
-  color: #fff;
-}
-
-
-#pvegout:hover h4, #plexmark:hover h4, #pcnbc:hover h4, #pgarden:hover h4, #pgdesignchallenge:hover h4, #pcomerica:hover h4, #pbrewery:hover h4, #ppawls:hover h4 {
-	color: #fff;
-}
-
-#pvegout:hover {
-	background: #EDB059;
-}
-
-#plexmark:hover {
-	background: #0E532B;
-}
-
-#pcnbc:hover {
-	background: #FEC41A;
-}
-#ppawls:hover{
-  background:#E2B0B7;
-}
-
-#pgarden:hover {
-	background: #E24747;
-}
-
-#pgdesignchallenge:hover {
-	background: #4EBFD8;
-}
-
-#pcomerica:hover {
-	background: #D094C0;
-}
-
-#pbrewery:hover{
-  background: #1F77A3;
-} */
 
 /* Fun twirling logo */
 .logo {
@@ -448,7 +372,7 @@ html,body {
 }
 
 h1, h2{
-	font-family: 'Playfair Display', serif;
+	font-family: 'Roboto', sans-serif;
 }
 
 
@@ -491,9 +415,12 @@ p, li{
 
 
 .title{
-	font-size: 50px;
-	line-height: 50px;
-	font-family: 'Playfair Display', serif;
+      font-weight: 500;
+      font-style: normal;
+      font-size: 32px;
+      letter-spacing: -1px;
+      line-height: -1px;
+
 }
 .heading {
     font-size: 30px;
@@ -522,10 +449,10 @@ p, li{
 
 #overview {
     padding-top: 155px;
-		padding-bottom: 80px;
+		/* padding-bottom: 30px; */
 }
 
-#problem,#overviewimg, #section{
+#problem, #section{
 	padding-top: 100px;
 	padding-bottom: 110px;
 }
@@ -749,9 +676,9 @@ footer {
 	background: url('../images/lexmarkpage.png') no-repeat;
 }
 
-#vegout {
+/* #vegout {
   background: url('../images/vegoutpage.png') no-repeat;
-}
+} */
 
 #pawls {
 	background: url('../images/pawlspage.png') no-repeat;
@@ -777,7 +704,7 @@ footer {
 	background: url('../images/comericapage.png') no-repeat;
 }
 
-#lexmark, #vegout, #pawls, #cnbc,#veggarden, #brewary, #google, #comerica {
+#lexmark, #pawls, #cnbc,#veggarden, #brewary, #google, #comerica {
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-position: center;
