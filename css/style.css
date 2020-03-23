@@ -449,7 +449,10 @@ p, li{
 
 #overview {
     padding-top: 155px;
-		/* padding-bottom: 30px; */
+		padding-bottom: 30px;
+}
+#overviewimg{
+  padding: 40px;
 }
 
 #problem, #section{
