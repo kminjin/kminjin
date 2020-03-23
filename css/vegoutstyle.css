@@ -34,13 +34,13 @@ img {
   margin: 0 auto;
 }
 
-.content-wrapper3 {
+.content-wrapper750 {
   position: relative;
-  max-width: 800px;
+  max-width:750px;
   margin: 0 auto;
 }
 
-.content-wrapperimg {
+.content-wrapper900 {
   position: relative;
   max-width: 900px;
   margin: 0 auto;
@@ -267,6 +267,7 @@ font-family: 'Merriweather', serif;
 }
 
 #section{
+
 	padding-bottom: 30px;
 }
 
