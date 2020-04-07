@@ -384,6 +384,15 @@ padding-bottom: 55px;
 
 }
 
+hr{
+  border: .5px solid #7A7A7A;
+}
+
+.custom-end{
+  color: #6b6b6f;
+  text-align: right;
+  margin-top: 50px;
+}
 
 
 
