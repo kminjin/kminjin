@@ -309,6 +309,17 @@ p{
   line-height: 1.7em;
 }
 
+.link a{
+  color: #2E3542;
+
+  text-decoration: underline;
+}
+
+.link a:hover{
+  text-decoration: underline;
+color: #2E3542;
+
+}
 .overview-info{
   font-family: 'Karla', sans-serif;
   font-weight:bold;
