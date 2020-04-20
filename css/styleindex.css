@@ -77,6 +77,15 @@
     border-color: transparent;
 }
 
+.middle a{
+  color: #262626;
+  text-decoration: underline;
+}
+
+a:hover{
+color: #2E3542;
+
+}
 
 @media(min-width:768px){
     .custom-navbar {
