@@ -10,15 +10,19 @@
 
 .navbar-brand, .navbar-brand:hover  {
   color: #2E3542;
+  font-family: 'Muli', sans-serif;
 
 
-	font-family: 'Do Hyeon', sans-serif;
+	/* font-family: 'Do Hyeon', sans-serif; */
 		/* font-weight: 500; */
 		font-style: normal;
-		font-size: 21px;
+		font-size: 17px;
+    letter-spacing: .01em;
+    font-weight:bold;
 		text-rendering: optimizeLegibility;
 		transition: all 0.3s ease-in-out;
 }
+
 
 
 .custom-navbar .nav li a {

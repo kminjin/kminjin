@@ -1,5 +1,5 @@
 .introduction{
-    height:80vh;
+    height:75vh;
     width: 100%;
 
     background: url('../images/header.jpg') no-repeat center center;
@@ -31,12 +31,15 @@
 
 .navbar-brand, .navbar-brand:hover  {
   color: #2E3542;
+  font-family: 'Muli', sans-serif;
 
 
-	font-family: 'Do Hyeon', sans-serif;
+	/* font-family: 'Do Hyeon', sans-serif; */
 		/* font-weight: 500; */
 		font-style: normal;
-		font-size: 21px;
+		font-size: 17px;
+    letter-spacing: .01em;
+    font-weight:bold;
 		text-rendering: optimizeLegibility;
 		transition: all 0.3s ease-in-out;
 }
@@ -175,7 +178,7 @@ p{
 }
 
 h1{
-font-size: 45px;
+font-size: 24px;
 
 /* font-family: 'Do Hyeon', sans-serif; */
 /* font-family: 'Playfair Display', serif; */
@@ -183,12 +186,28 @@ font-size: 45px;
 font-family: 'Karla', sans-serif;
 /* font-family: 'Poppins', serif; */
 font-style: normal;
-font-weight: 900;
+/* font-weight: 900; */
 color: #2E3542;
 line-height: 30px;
 letter-spacing: -.03em;
 }
 
+
+h3{
+  font-family: 'PT Serif', Georgia, serif;
+  font-size: 18px;
+
+  /* font-family: 'Do Hyeon', sans-serif; */
+  /* font-family: 'Playfair Display', serif; */
+  /* font-family: 'Cormorant Garamond', sans-serif; */
+  /* font-family: 'Poppins', serif; */
+  font-style: normal;
+  font-weight: 400;
+  color: #2E3542;
+  line-height: 40px;
+  letter-spacing: -.03em;
+  }
+}
 
 /* footer section */
 hr{
