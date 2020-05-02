@@ -1,5 +1,5 @@
 #introduction{
-    height:80vh;
+    height:75vh;
     width: 100%;
 
     /* background: url('../images/header.jpg') no-repeat center center; */
@@ -14,19 +14,12 @@
 
 
 #introduction {
-padding-top: 7em;
-position: relative;
+
 /* max-width: 1000px; */
 margin: 0 auto;
 
 }
 
-.selected-work{
-  padding-top: 11em;
-  /* position: relative; */
-  /* max-width: 1000px; */
-
-}
 
 
 /* start navigation */
@@ -206,6 +199,7 @@ font-weight: 700;
 font-style: normal;
 color: #2E3542;
 line-height:1.3em;
+padding-top: 10%;
 /* letter-spacing: -.01em; */
 }
 
