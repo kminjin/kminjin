@@ -124,7 +124,14 @@ margin: 0 auto;
 }
 
 #about {
-padding-top: 20px;
+padding-top: 3em;
+position: relative;
+max-width: 850px;
+margin: 0 auto;
+
+}
+#about2 {
+padding-top: 0em;
 position: relative;
 max-width: 850px;
 margin: 0 auto;
