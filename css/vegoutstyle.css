@@ -3,14 +3,14 @@
 /* start navigation */
 .custom-navbar {
     background-color: #fff;
-    padding-top: 50px;
+    padding-top: 40px;
     margin-left:5em;
     margin-right:5em;
 }
 
 .navbar-brand, .navbar-brand:hover  {
   color: #2E3542;
-  font-family: 'Muli', sans-serif;
+font-family: 'Montserrat', sans-serif;
 
 
 	/* font-family: 'Do Hyeon', sans-serif; */
@@ -24,10 +24,9 @@
 }
 
 
-
 .custom-navbar .nav li a {
 		color: 	#C0C0C0;
-		font-family: 'Muli', sans-serif;
+font-family: 'Montserrat', sans-serif;
 		/* font-weight: 500; */
 		font-style: normal;
 		font-size: 16px;
@@ -36,7 +35,7 @@
 }
 .custom-navbar .nav li a:hover {
     /* background: #FF8C5F; */
-    color: #303030;
+    color: #F15C48;
     transition: all 0.3s ease-in-out;
 }
 
@@ -46,7 +45,7 @@
 }
 
 .custom-navbar .nav li.active > a {
-    color: #303030;
+    color: #F15C48;
     font-weight: bold;
 }
 
