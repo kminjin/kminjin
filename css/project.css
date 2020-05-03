@@ -9,18 +9,18 @@
 }
 
 .navbar-brand, .navbar-brand:hover  {
-  color: #2E3542;
+  color: 	#C0C0C0;
 font-family: 'Montserrat', sans-serif;
-
-
-	/* font-family: 'Do Hyeon', sans-serif; */
-		/* font-weight: 500; */
 		font-style: normal;
-		font-size: 17px;
+		font-size: 16px;
     letter-spacing: .01em;
-    font-weight:bold;
 		text-rendering: optimizeLegibility;
 		transition: all 0.3s ease-in-out;
+}
+.navbar-brand:hover  {
+  color: #F15C48;
+  transition: all 0.3s ease-in-out;
+
 }
 
 
@@ -71,52 +71,11 @@ font-family: 'Montserrat', sans-serif;
         background:#fff;
         border-bottom: 1px solid #eeeeee;
     }
-
-
 }
 
-
-.divider {
-  height: 7px;
-  width: 90px;
-  border-radius: 2px;
-  color:#7CBACF;
-  background-color: #7CBACF;
-}
-
-/* .rectangle {
-  height: 15px;
-  width: 25px;
-  border-radius: 2px;
-color:#7CBACF;
-background-color: #7CBACF;
-} */
-
-.parent{
-  display: flex;
-align-items: center;
-padding-top: 2.5em;
-}
-
-
-#thriveprocess{
-  background-color: #E0F0F6;
-}
-.deckbutton {
-  background-color: #262626;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  width:200px;
-  text-align: center
-}
 
 /* Nonspecialized code */
+
 a:hover {
   text-decoration: none;
 }
@@ -125,57 +84,12 @@ img {
   width: 100%;
 }
 
-.content-wrapper2 {
-  position: relative;
-  max-width: 600px;
-  margin: 0 auto;
-}
-
-.content-wrapper4 {
-  position: relative;
-  max-width: 700px;
-  margin: 0 auto;
-}
-
-.content-wrapper750 {
-  position: relative;
-  max-width:900px;
-  margin: 0 auto;
-}
 
 .content-wrapper900 {
   position: relative;
   max-width: 900px;
   margin: 0 auto;
 }
-
-
-
-.content-wrapper {
-  position: relative;
-  max-width: 700px;
-  margin: 0 auto;
-}
-
-
-.description {
-  font-size: 17px;
-  line-height: 19px;
-  font-weight: bold;
-  color:#CDCDCE;
-  text-align: left;
-}
-
-.subheading{
-  font-family: 'Arimo', sans-serif;
-    font-weight: 600 ;
-    font-style: normal;
-    /* font-size: 1.4em; */
-    text-transform: none;
-    text-decoration: none;
-    letter-spacing: 0em;
-
-  }
 
 
 /* #Progress
@@ -262,10 +176,9 @@ img {
 
 /* gray background for content */
 
-.graybg{
+._bg{
 	background: #f9f9f9;
 }
-
 
 
 
@@ -281,26 +194,44 @@ img {
   text-align: center;
 }
 
-
-h3{
-
-  font-family: 'Karla', sans-serif;
-  /* text-align: center; */
-  font-weight: bold;
-  line-height:30px;
-  font-size: 24px;
-  color: #1a1a1a;
-
+h1{
+font-size: 35px;
+font-family: 'Assistant', sans-serif;
+font-weight: 700;
+font-style: normal;
+color: #2E3542;
+line-height:1.3em;
+padding-top: 10%;
+/* letter-spacing: -.01em; */
 }
 
 h2{
-  color:#D4D4D4;
-  font-family: 'Karla', sans-serif;
-  /* text-align: center; */
-  font-weight: bold;
-  line-height: 10px;
-  font-size: 32px;
+  font-family: 'Montserrat', sans-serif;
+  		font-style: normal;
+  		font-size: 26px;
+      letter-spacing: .01em;
+      font-weight:bold;
+  		text-rendering: optimizeLegibility;
+  		transition: all 0.3s ease-in-out;
 }
+h3{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 700;
+  color: #2E3542;
+  letter-spacing: .0em;
+  }
+
+h4{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: bold;
+  letter-spacing: .05em;
+  color: #2E3542;
+}
+
 
 
 
@@ -315,7 +246,7 @@ p{
 }
 
 .overview-info{
-  font-family: 'Karla', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight:bold;
   font-size: 1.2em;
   font-style: normal;
@@ -338,37 +269,6 @@ margin-top: 5em;
 }
 
 
-.content-wrapper4 {
-  position: relative;
-  max-width: 700px;
-  margin: 0 auto;
-}
-
-
-
-
-h1{
-font-family: 'Karla', sans-serif;
-      font-style: normal;
-      font-size: 42px;
-      line-height: 1.0em;
-      letter-spacing: -.05em;
-      text-transform: none;
-      color: #1a1a1a;
-
-      font-weight:bold;
-      padding-top:1em;
-}
-
-
-.caption{
-	color:#1B89B6;
-  text-align: center;
-  font-weight: bold;
-  font-size: 12px;
-  line-height: 50px;
-}
-
 
 .contentblock{
 	padding-bottom: 7em;
@@ -381,13 +281,6 @@ font-family: 'Karla', sans-serif;
 }
 
 
-
-
-#introduction {
-padding-top: 80px;
-padding-bottom: 55px;
-
-}
 
 hr{
   border: .5px solid #7A7A7A;
