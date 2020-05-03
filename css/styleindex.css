@@ -174,8 +174,11 @@ padding-bottom: 20%;
 /* letter-spacing: -.01em; */
 }
 
+.h1exception{
+  padding-bottom: 0%;
+}
 .aboutphotos {
-  padding-top: 3.5em;
+  padding-top: 6em;
     padding-bottom: 8em;
   max-width: 1150px;
   align-items: center;
