@@ -1,4 +1,15 @@
 
+/* Colorize-zoom Container */
+/* .img-hover-zoom--colorize img {
+  transition: transform .4s, filter .8s ease-in-out;
+  filter: grayscale(100%);
+}
+
+.img-hover-zoom--colorize:hover img {
+  filter: grayscale(0);
+  transform: scale(1.1);
+} */
+
 
 
 /* start navigation */
@@ -115,16 +126,31 @@ h2{
 /* [2] Transition property for smooth transformation of images */
 .img-hover-zoom img {
   transition: transform .2s ease;
+  overflow: hidden;
 }
 
 /* [3] Finally, transforming the image when container gets hovered */
 .img-hover-zoom:hover img {
-  transform: scale(1.05);
+  transform: scale(1.1);
 }
 
 
+
+.box {
+  /* background-color: lightgrey; */
+  border-radius: 8px;
+  overflow:hidden;
+  /* border: 1px solid; */
+/* box-shadow: 5px 10px; */
+
+  /* padding: 50px;
+  margin: 20px; */
+}
+
+
+
 .project{
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 
 }
 
