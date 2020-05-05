@@ -1,16 +1,4 @@
 
-/* Colorize-zoom Container */
-/* .img-hover-zoom--colorize img {
-  transition: transform .4s, filter .8s ease-in-out;
-  filter: grayscale(100%);
-}
-
-.img-hover-zoom--colorize:hover img {
-  filter: grayscale(0);
-  transform: scale(1.1);
-} */
-
-
 
 /* start navigation */
 .custom-navbar {
@@ -26,13 +14,11 @@
       height: 38px;
       padding: 0 20px;
       text-align: center;
-      font-size: 10px;
+      font-size: 14px;
       font-weight: 800;
       line-height: 38px;
-      letter-spacing: .1rem;
+      letter-spacing: .01rem;
       text-decoration: none;
-
-  color: #2E3542;
 
 		text-rendering: optimizeLegibility;
 		transition: all 0.3s ease-in-out;
@@ -43,6 +29,8 @@
 		color: 	#C0C0C0;
 font-family: 'Montserrat', sans-serif;
 font-size: 14px;
+letter-spacing: .01rem;
+
 
 
 		/* font-weight: 500; */
@@ -210,6 +198,9 @@ letter-spacing: -.02em;
 
 .h1exception{
   padding-bottom: 0%;
+font-weight:600;
+font-size:24px;
+
 }
 .aboutphotos {
   padding-top: 6em;
