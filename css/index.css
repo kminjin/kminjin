@@ -21,16 +21,19 @@
 }
 
 .navbar-brand, .navbar-brand:hover  {
+      display: inline-block;
+      font-family: 'Montserrat', sans-serif;
+      height: 38px;
+      padding: 0 20px;
+      text-align: center;
+      font-size: 10px;
+      font-weight: 800;
+      line-height: 38px;
+      letter-spacing: .1rem;
+      text-decoration: none;
+
   color: #2E3542;
-font-family: 'Montserrat', sans-serif;
 
-
-	/* font-family: 'Do Hyeon', sans-serif; */
-		/* font-weight: 500; */
-		font-style: normal;
-		font-size: 17px;
-    letter-spacing: .01em;
-    font-weight:bold;
 		text-rendering: optimizeLegibility;
 		transition: all 0.3s ease-in-out;
 }
@@ -39,11 +42,11 @@ font-family: 'Montserrat', sans-serif;
 .custom-navbar .nav li a {
 		color: 	#C0C0C0;
 font-family: 'Montserrat', sans-serif;
+font-size: 14px;
+
+
 		/* font-weight: 500; */
-		font-style: normal;
-		font-size: 16px;
-		letter-spacing: .01em;
-		text-rendering: optimizeLegibility;
+
 }
 .custom-navbar .nav li a:hover {
     /* background: #FF8C5F; */
@@ -112,15 +115,8 @@ margin: 0 auto;
 
 
 
-h2{
-  font-family: 'Montserrat', sans-serif;
-  		font-style: normal;
-  		font-size: 17px;
-      letter-spacing: .01em;
-      font-weight:bold;
-  		text-rendering: optimizeLegibility;
-  		transition: all 0.3s ease-in-out;
-}
+
+
 
 
 /* [2] Transition property for smooth transformation of images */
@@ -181,7 +177,7 @@ h2{
 
 p{
  font-size: 15px;
- font-family: 'Open Sans', serif;
+ font-family: 'Raleway', serif;
  letter-spacing: .02em;
  font-style: normal;
  font-weight: normal;
@@ -189,16 +185,27 @@ p{
  /* line-height: 32px; */
 }
 
+
 h1{
-font-size: 35px;
-font-family: 'Assistant', sans-serif;
-font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  padding-top: 10%;
+  font-style: normal;
+  /* font-weight: bold; */
+  letter-spacing: -.03em;
+  color: #2E3542;
+}
+
+
+h2{
+font-size: 34px;
+font-family: 'Raleway', sans-serif;
 font-style: normal;
+font-weight: 600;
 color: #2E3542;
 line-height:1.3em;
-padding-top: 10%;
 padding-bottom: 18%;
-/* letter-spacing: -.01em; */
+letter-spacing: -.02em;
 }
 
 .h1exception{
@@ -218,9 +225,9 @@ h3{
   font-family: 'Montserrat', sans-serif;
   font-size: 27px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
   color: #2E3542;
-  letter-spacing: .0em;
+  letter-spacing: .02em;
   }
 
 h4{
