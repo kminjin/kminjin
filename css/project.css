@@ -182,21 +182,22 @@ img {
 
 h1{
 font-size: 35px;
-font-family: 'Assistant', sans-serif;
+font-family: 'Montserrat', sans-serif;
 font-weight: 700;
 font-style: normal;
 color: #2E3542;
-line-height:1.3em;
+
 padding-top: 10%;
 /* letter-spacing: -.01em; */
 }
 
 h2{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Raleway', sans-serif;
   		font-style: normal;
-  		font-size: 26px;
+  		font-size: 18px;
+      line-height: 1.5em;
       letter-spacing: .01em;
-      font-weight:bold;
+      /* font-weight:bold; */
   		text-rendering: optimizeLegibility;
   		transition: all 0.3s ease-in-out;
 }
@@ -216,6 +217,7 @@ h4{
   font-weight: bold;
   letter-spacing: .05em;
   color: #2E3542;
+  text-transform: uppercase;
 }
 
 
@@ -223,7 +225,7 @@ h4{
 
 p{
   font-size: 16px;
-  font-family: 'PT Serif', Georgia, serif;
+  font-family: 'Raleway', Georgia, sans-serif;
   letter-spacing: .01em;
   font-style: normal;
   font-weight: normal;
@@ -236,6 +238,7 @@ p{
   font-weight:bold;
   font-size: 1.2em;
   font-style: normal;
+  line-height: .5em;
 
 
 }
@@ -256,7 +259,7 @@ margin-top: 5em;
 
 
 .contentblock{
-	padding-bottom: 7em;
+	padding-bottom: 5em;
 }
 
 #gifbg{
