@@ -96,6 +96,11 @@ img {
   margin: 0 auto;
 }
 
+.content-wrapper914 {
+  position: relative;
+  max-width: 914px;
+  margin: 0 auto;
+}
 
 /* #Progress
 ================================================== */
