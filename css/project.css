@@ -270,7 +270,7 @@ h4{
     width: 25px;
     height: 25px;
     padding: 5px;
-    background: #289dd8;
+    background: #BE3B32;
     /* border: 1px solid #666; */
     color: #ffffff;
     text-align: center;
@@ -325,6 +325,13 @@ margin-top: 5em;
 	padding-bottom: 120px;
 	background: #181A21;
 }
+
+#graybg{
+	padding-top: 120px;
+	padding-bottom: 120px;
+	background: #f5f5f5;
+}
+
 
 
 
