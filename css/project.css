@@ -265,6 +265,18 @@ h4{
   text-transform: uppercase;
 }
 
+.numberCircle {
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+    background: #289dd8;
+    /* border: 1px solid #666; */
+    color: #ffffff;
+    text-align: center;
+
+    font: 13px Montserrat, sans-serif;
+}
 
 
 
