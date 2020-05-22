@@ -314,6 +314,19 @@ h4{
     font: 13px Montserrat, sans-serif;
 }
 
+.numberCircle2 {
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+    background: #39C9D5;
+    /* border: 1px solid #666; */
+    color: #ffffff;
+    text-align: center;
+
+    font: 13px Montserrat, sans-serif;
+}
+
 
 
 p{
