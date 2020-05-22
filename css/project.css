@@ -366,6 +366,16 @@ margin-top: 5em;
 	background: #181A21;
 }
 
+#gifbg1{
+	padding-top: 120px;
+	background: #181A21;
+}
+
+#gifbg2{
+	background: #181A21;
+  padding-bottom: 120px;
+
+}
 #graybg{
 	padding-top: 120px;
 	padding-bottom: 120px;
