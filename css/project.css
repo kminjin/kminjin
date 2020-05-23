@@ -1,6 +1,6 @@
 figcaption{
   font-family: Raleway, sans-serif;
-  
+
 }
 
 
@@ -399,6 +399,15 @@ margin-top: 5em;
 }
 
 
+#graybg2{
+	padding-top: 120px;
+	background: #f5f5f5;
+}
+
+#graybg3{
+	padding-bottom: 120px;
+	background: #f5f5f5;
+}
 
 
 hr{
