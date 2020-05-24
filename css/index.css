@@ -124,6 +124,7 @@ margin: 0 auto;
   /* background-color: lightgrey; */
   border-radius: 8px;
   overflow:hidden;
+  
   /* border: 1px solid; */
 /* box-shadow: 5px 10px; */
 
@@ -212,22 +213,22 @@ letter-spacing: .01rem;
 }
 
 
-
 h3{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Assistant', sans-serif;
   font-size: 27px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: bold;
+  line-height: 125%;
   color: #2E3542;
   letter-spacing: .02em;
   }
 
 h4{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 15px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 13px;
   font-style: normal;
-  font-weight: bold;
-  letter-spacing: .05em;
+  line-height: normal;
+  letter-spacing: .1em;
   color: #2E3542;
 }
 
