@@ -286,8 +286,8 @@ h2{
       padding-bottom: 8%;
 }
 h3{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 27px;
+  font-family: 'Assistant', sans-serif;
+  font-size: 30px;
   font-style: normal;
   font-weight: 700;
   color: #2E3542;
@@ -295,13 +295,14 @@ h3{
   }
 
 h4{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 15px;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   letter-spacing: .05em;
   color: #2E3542;
   text-transform: uppercase;
+  line-height: 5%;
 }
 
 .numberCircle {
