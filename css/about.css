@@ -176,11 +176,10 @@ p{
 
 
 h1{
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 18px;
   padding-top: 10%;
   font-style: normal;
-  padding-bottom: 15%;
   /* font-weight: bold; */
   letter-spacing: -.03em;
   color: #2E3542;
@@ -188,8 +187,8 @@ h1{
 
 
 h2{
-font-size: 28px;
-font-family: 'Montserrat', sans-serif;
+font-size: 34px;
+font-family: 'Raleway', sans-serif;
 font-style: normal;
 font-weight: 600;
 color: #2E3542;
@@ -214,7 +213,7 @@ letter-spacing: .01rem;
 }
 
 
-p{
+h3{
   font-family: 'Assistant', sans-serif;
   font-size: 27px;
   font-style: normal;
@@ -270,8 +269,6 @@ hr{
 		#about .col-md-6 p {
 		    	font-size: 13px;
 		}
-
-
     #about .col-md-4 .fa {
         margin-top: 32px;
     }
