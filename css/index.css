@@ -180,8 +180,8 @@ h1{
   font-size: 18px;
   padding-top: 10%;
   font-style: normal;
-  padding-bottom: 15%;
-  /* font-weight: bold; */
+  padding-bottom: 18%;
+  font-weight: 600;
   letter-spacing: -.03em;
   color: #2E3542;
 }
