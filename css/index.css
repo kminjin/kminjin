@@ -10,12 +10,12 @@
 
 .navbar-brand, .navbar-brand:hover  {
       display: inline-block;
-      font-family: 'Montserrat', sans-serif;
+      font-family: 'Raleway', sans-serif;
       height: 38px;
       padding: 0 20px;
       text-align: center;
       font-size: 14px;
-      font-weight: 800;
+      font-weight: bold;
       line-height: 38px;
       letter-spacing: .01rem;
       text-decoration: none;
@@ -27,7 +27,7 @@
 
 .custom-navbar .nav li a {
 		color: 	#C0C0C0;
-font-family: 'Montserrat', sans-serif;
+font-family: 'Raleway', sans-serif;
 font-size: 14px;
 letter-spacing: .01rem;
 
@@ -176,26 +176,27 @@ p{
 
 
 h1{
-  font-family: 'Raleway', sans-serif;
-  font-size: 18px;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 36px;
   padding-top: 10%;
   font-style: normal;
-  padding-bottom: 18%;
-  font-weight: 600;
+  padding-bottom: 5%;
+  font-weight: bold;
+  line-height: 130%
   letter-spacing: -.03em;
   color: #2E3542;
 }
 
 
 h2{
-font-size: 28px;
-font-family: 'Montserrat', sans-serif;
+font-size:22px;
+font-family: 'Karla', sans-serif;
 font-style: normal;
-font-weight: 600;
+/* font-weight: 600; */
 color: #2E3542;
-line-height:1.3em;
+line-height:1.42em;
 padding-bottom: 18%;
-letter-spacing: -.02em;
+/* letter-spacing: -.02em; */
 }
 
 .h1exception{

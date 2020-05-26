@@ -10,7 +10,7 @@
 
 .navbar-brand, .navbar-brand:hover  {
       display: inline-block;
-      font-family: 'Montserrat', sans-serif;
+      font-family: 'Raleway', sans-serif;
       height: 38px;
       padding: 0 20px;
       text-align: center;
@@ -27,7 +27,7 @@
 
 .custom-navbar .nav li a {
 		color: 	#C0C0C0;
-font-family: 'Montserrat', sans-serif;
+font-family: 'Raleway', sans-serif;
 font-size: 14px;
 letter-spacing: .01rem;
 
