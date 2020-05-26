@@ -194,7 +194,7 @@ img {
 }
 .button1 {
     display: inline-block;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Barlow', sans-serif;
     height: 50px;
     padding: 0 20px;
     text-align: center;
@@ -218,7 +218,7 @@ img {
 
 .button2 {
     display: inline-block;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Barlow', sans-serif;
     height: 50px;
     padding: 0 20px;
     text-align: center;
@@ -265,7 +265,7 @@ img {
 
 h1{
 font-size: 50px;
-font-family: 'Montserrat', sans-serif;
+font-family: 'Barlow', sans-serif;
 font-weight: 700;
 font-style: normal;
 color: #2E3542;
@@ -286,7 +286,7 @@ h2{
       padding-bottom: 8%;
 }
 h3{
-  font-family: 'Assistant', sans-serif;
+  font-family: 'Barlow', sans-serif;
   font-size: 30px;
   font-style: normal;
   font-weight: 700;
@@ -345,7 +345,7 @@ p{
 }
 
 .overview-info{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Barlow', sans-serif;
   font-weight:bold;
   font-size: 1.2em;
   font-style: normal;
