@@ -305,6 +305,17 @@ h4{
   line-height: 5%;
 }
 
+.barlow{
+  font-family: 'Barlow', sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: .05em;
+  color: #2E3542;
+}
+
+
+
 .numberCircle {
     border-radius: 50%;
     width: 25px;
