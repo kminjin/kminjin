@@ -64,11 +64,11 @@ letter-spacing: .01rem;
 
 #content a{
   color: #262626;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
-#content a:hover{
-color: #F15C48;
+a:hover{
+color: #2E3542;
 
 }
 
@@ -182,7 +182,8 @@ h1{
   font-style: normal;
   padding-bottom: 2%;
   font-weight: bold;
-  line-height: 200%
+  line-height: 130%
+  letter-spacing: -.03em;
   color: #2E3542;
 }
 
